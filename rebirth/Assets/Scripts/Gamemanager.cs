@@ -6,19 +6,26 @@ public class Gamemanager : MonoBehaviour
 {
     public bool isDeath = false;
     public screenFlash sf;
+    public blink blink;
+
+    
 
     // Start is called before the first frame update
     void Start()
     {
-        //sf.GetComponent<screenFlash>();
+
     }
 
     // Update is called once per frame
     void Update()
     {
+        // If player is going to dead
         if (isDeath)
         {
-            sf.flash();
+            // Flash the player's screen
+            sf.flash(8);
+            // Blink
+            blink.blink_eye(5);
             isDeath = !isDeath;
         }
     }

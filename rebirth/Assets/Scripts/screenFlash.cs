@@ -23,27 +23,30 @@ public class screenFlash : MonoBehaviour
     {
         
     }
-    public void flash()
+    public void flash(int times)
     {
-        Debug.Log("flash");
-        StartCoroutine(startFlash());
+        StartCoroutine(startFlash(times));
     }
-    IEnumerator startFlash()
+    //Start the screen flash 
+    IEnumerator startFlash(int times)
     {
         Color c = screen.color;
-        for(int times = 0; times < 10; times++)
+        for(int t = 0; t < times; t++)
         {
+            Debug.Log("Flash: " + t);
+            // Flash red
             for(float i = 0; i < 0.56f; i+=0.02f)
             {
-                yield return new WaitForSeconds(0.01f);
                 c.a = i;
                 screen.color = c;
+                yield return new WaitForSeconds(0.01f);
             }
-            for (float i = 0.56f; 0 < i; i -= 0.02f)
+            // Off flash
+            for (float i = 0.56f; 0 < i; i-=0.02f)
             {
-                yield return new WaitForSeconds(0.01f);
                 c.a = i;
                 screen.color = c;
+                yield return new WaitForSeconds(0.01f);
             }
             yield return new WaitForSeconds(0.4f);
         }

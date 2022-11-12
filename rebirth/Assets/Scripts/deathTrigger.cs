@@ -16,6 +16,8 @@ public class deathTrigger : MonoBehaviour
     {
         
     }
+
+    //When the player hit the cube (is going to dead)
     private void OnTriggerEnter(Collider other)
     {
         switch (other.tag)
