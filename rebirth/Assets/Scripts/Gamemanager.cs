@@ -25,7 +25,9 @@ public class Gamemanager : MonoBehaviour
             // Flash the player's screen
             sf.flash(8);
             // Blink
-            blink.blink_eye(5);
+            blink.blink_eye(6);
+            // Reborn
+            //blink.openEye();
             isDeath = !isDeath;
         }
     }

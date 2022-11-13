@@ -6,13 +6,12 @@ public class blink : MonoBehaviour
 {
     public Transform blinkTop;
     public Transform blinkBottom;
-    public Transform blinkObj;
+    public Transform head;
 
     // Start is called before the first frame update
     void Start()
     {
-        //blinkTop.position = new Vector3(0, 1, 0.46f);
-        //blinkBottom.position = new Vector3(0, -1, 0.46f);
+
     }
 
     // Update is called once per frame
@@ -36,6 +35,7 @@ public class blink : MonoBehaviour
                 blinkTop.position = blinkTop.position - new Vector3(0, i, 0);
                 blinkBottom.position = blinkBottom.position + new Vector3(0, i, 0);
                 yield return new WaitForSeconds(0.02f);
+                Debug.Log("top_close");
             }
 
             yield return new WaitForSeconds(0.3f);
@@ -46,15 +46,32 @@ public class blink : MonoBehaviour
                 blinkTop.position = blinkTop.position + new Vector3(0, i, 0);
                 blinkBottom.position = blinkBottom.position - new Vector3(0, i, 0);
                 yield return new WaitForSeconds(0.02f);
+                Debug.Log("bottom_close");
             }
         }
         yield return new WaitForSeconds(0.3f);
 
         // Close the eye
-        for (float i = 0; i < 0.125f; i += 0.01f)
+        for (float i = 0; i < 0.125f; i += 0.005f)
         {
+            //head.rotation = Quaternion.Euler(0, 0, -i*10);
             blinkTop.position = blinkTop.position - new Vector3(0, i, 0);
             blinkBottom.position = blinkBottom.position + new Vector3(0, i, 0);
+            yield return new WaitForSeconds(0.02f);
+        }
+    }
+
+    public void openEye()
+    {
+        StartCoroutine(startOpenEye());
+    }
+    IEnumerator startOpenEye()
+    {
+        // Open the eye
+        for (float i = 0; i < 0.125f; i += 0.005f)
+        {
+            blinkTop.position = blinkTop.position + new Vector3(0, i, 0);
+            blinkBottom.position = blinkBottom.position - new Vector3(0, i, 0);
             yield return new WaitForSeconds(0.02f);
         }
     }
