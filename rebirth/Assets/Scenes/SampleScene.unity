@@ -1395,7 +1395,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f53846614e9a604e89ff009b8bc7c44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  anim: {fileID: 0}
+  anim: {fileID: 101131995}
+  blood: {fileID: 101131991}
 --- !u!1 &1812035859
 GameObject:
   m_ObjectHideFlags: 0
