@@ -15,7 +15,7 @@ public class redDropAnim : MonoBehaviour
     }
 
     public void OnTriggerEnter(Collider other) {
-        if(other.tag == "money"){
+        if(other.tag == "money"){ //待修
             print("money in"); 
             // anim.Play("redDrop");
             // anim.enabled = true;
