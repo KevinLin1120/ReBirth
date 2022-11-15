@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Threading.Tasks;
 
 public class blink : MonoBehaviour
 {
@@ -22,9 +23,11 @@ public class blink : MonoBehaviour
 
     public void blink_eye(int times)
     {
-        StartCoroutine(startBlink(times));
+        //StartCoroutine(startBlink(times));
+        startBlink(times);
     }
-    IEnumerator startBlink(int times)
+    //IEnumerator startBlink(int times)
+    async void startBlink(int times)
     {
         for(int t = 0; t < times -1; t++)
         {
@@ -34,22 +37,25 @@ public class blink : MonoBehaviour
             {
                 blinkTop.position = blinkTop.position - new Vector3(0, i, 0);
                 blinkBottom.position = blinkBottom.position + new Vector3(0, i, 0);
-                yield return new WaitForSeconds(0.02f);
+                //yield return new WaitForSeconds(0.02f);
+                await Task.Delay(20);
                 Debug.Log("top_close");
             }
 
-            yield return new WaitForSeconds(0.3f);
-
+            //yield return new WaitForSeconds(0.3f);
+            await Task.Delay(30);
             // Open eyes
             for (float i = 0; i < 0.125f; i += 0.005f)
             {
                 blinkTop.position = blinkTop.position + new Vector3(0, i, 0);
                 blinkBottom.position = blinkBottom.position - new Vector3(0, i, 0);
-                yield return new WaitForSeconds(0.02f);
+                //yield return new WaitForSeconds(0.02f);
+                await Task.Delay(20);
                 Debug.Log("bottom_close");
             }
         }
-        yield return new WaitForSeconds(0.3f);
+        //yield return new WaitForSeconds(0.3f);
+        await Task.Delay(30);
 
         // Close the eye
         for (float i = 0; i < 0.125f; i += 0.005f)
@@ -57,7 +63,8 @@ public class blink : MonoBehaviour
             //head.rotation = Quaternion.Euler(0, 0, -i*10);
             blinkTop.position = blinkTop.position - new Vector3(0, i, 0);
             blinkBottom.position = blinkBottom.position + new Vector3(0, i, 0);
-            yield return new WaitForSeconds(0.02f);
+            //yield return new WaitForSeconds(0.02f);
+            await Task.Delay(20);
         }
     }
 
