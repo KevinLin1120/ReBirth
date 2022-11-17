@@ -15,11 +15,11 @@ C:/Users/howar/workspace/game programming/ReBitrh/rebirth
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62402
+61938
 Successfully changed project path to: C:/Users/howar/workspace/game programming/ReBitrh/rebirth
 C:/Users/howar/workspace/game programming/ReBitrh/rebirth
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 35.56 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 42.01 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.29f1 (2ff179115da0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/Resources/UnitySubsystems
@@ -35,120 +35,120 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56928
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56600
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002317 seconds.
+Registered in 0.001915 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 110.96 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 30.05 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.015 seconds
+- Completed reload, in  0.600 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1015ms)
-		BeginReloadAssembly (75ms)
+	ReloadAssembly (601ms)
+		BeginReloadAssembly (63ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (852ms)
-			LoadAssemblies (73ms)
+		EndReloadAssembly (467ms)
+			LoadAssemblies (62ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (198ms)
+			SetupTypeCache (162ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (418ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (154ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (111ms)
-				BeforeProcessingInitializeOnLoad (16ms)
-				ProcessInitializeOnLoadAttributes (236ms)
-				ProcessInitializeOnLoadMethodAttributes (47ms)
+				RefreshPlugins (30ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (75ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003911 seconds.
+Registered in 0.003622 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000027A0B6F7AD0 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file data-0000028920020510 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A0CDD67A0 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-0000028AFEA86C20 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A0C083010 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-0000028AFE654010 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A0B944820 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-0000028AFEAD2220 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A0B839220 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-0000028AFEAD2220 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A07C9D340 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-0000028AFE750010 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A0C787E20 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-0000028AFE683A30 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A0B9D7010 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-0000028AFE929010 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A0C787E20 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000028AF9F17C20 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A0C787E20 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-0000028AFE683A30 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A07D40E60 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-0000028AF9F17C20 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A078E1330 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-0000028AFA5E0B20 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A0B6F7AD0 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-0000028920020510 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A0B9FF620 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-0000028AFE951620 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.205 seconds
+- Completed reload, in  1.235 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2207ms)
-		BeginReloadAssembly (245ms)
+	ReloadAssembly (1236ms)
+		BeginReloadAssembly (157ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (1867ms)
-			LoadAssemblies (143ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1011ms)
+			LoadAssemblies (119ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (524ms)
+			SetupTypeCache (412ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (180ms)
-			SetupLoadedEditorAssemblies (816ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (298ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (257ms)
-				ProcessInitializeOnLoadAttributes (515ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (176ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1505 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.6 MB.
-System memory in use after: 67.7 MB.
+Unloading 1560 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.0 MB.
+System memory in use after: 72.1 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1941.
-Total: 2.804800 ms (FindLiveObjects: 0.138700 ms CreateObjectMapping: 0.058300 ms MarkObjects: 2.531900 ms  DeleteObjects: 0.074900 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1996.
+Total: 10.149000 ms (FindLiveObjects: 0.120600 ms CreateObjectMapping: 0.043800 ms MarkObjects: 8.912200 ms  DeleteObjects: 1.071100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -163,85 +163,375 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/redDropAnim.cs
-  artifactKey: Guid(4f53846614e9a604e89ff009b8bc7c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/redDropAnim.cs using Guid(4f53846614e9a604e89ff009b8bc7c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b228e99de041f811dab3e8577a9088a5') in 0.044369 seconds 
-  Import took 0.048714 seconds .
+  path: Assets/Anim/redDrop2.anim
+  artifactKey: Guid(76d16302542cf8049bd02a4960379ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim/redDrop2.anim using Guid(76d16302542cf8049bd02a4960379ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62bfd4d2397769432d8f98c3c4f345c6') in 0.049801 seconds 
+  Import took 0.053838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.247919 seconds.
+  path: Assets/Anim/blood2.controller
+  artifactKey: Guid(72431818cf4f7cd4f877fd78ee2280e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim/blood2.controller using Guid(72431818cf4f7cd4f877fd78ee2280e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4cd9ea4a237a102cfdd030ff04d9ec6') in 0.010758 seconds 
+  Import took 0.013909 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003337 seconds.
+Registered in 0.003178 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000027A0B94C830 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file data-0000028922566010 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A07A4F020 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-00000289204F7500 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A0BB06010 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000002892222A020 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A0BC26010 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-0000028AFE85EE50 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A079E6010 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-0000028922A5DF60 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A0BB2A010 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-0000028AFE97D010 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A0B751430 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-0000028AFA152E40 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A07D5A420 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-0000028AFE929010 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A079E6010 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000028AFE316D30 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A07CBD350 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-0000028AFEAC0420 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A0D52EE40 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-0000028AFE85EE50 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A079FB490 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-0000028AFE654010 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A0EF1BC30 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-0000028922566010 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A07BA4010 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-0000028920A51010 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.978 seconds
+Domain Reload Profiling:
+	ReloadAssembly (979ms)
+		BeginReloadAssembly (138ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (775ms)
+			LoadAssemblies (120ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (287ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (271ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (168ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1541 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.6 MB.
+System memory in use after: 70.7 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1998.
+Total: 2.502300 ms (FindLiveObjects: 0.122800 ms CreateObjectMapping: 0.034300 ms MarkObjects: 2.324500 ms  DeleteObjects: 0.020000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 212.249528 seconds.
+  path: Assets/Assets/redDrop2 1.png
+  artifactKey: Guid(f57101df4a808cf429de0bc8295d6716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/redDrop2 1.png using Guid(f57101df4a808cf429de0bc8295d6716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0cbc4bd8cebff9a4d9bb8bc35f8344c') in 0.059528 seconds 
+  Import took 0.062961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Assets/redDrop2.png
+  artifactKey: Guid(7b9e88bd7a8a8b04d83a04faaefc08cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/redDrop2.png using Guid(7b9e88bd7a8a8b04d83a04faaefc08cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e1c9a14f186e7cb4b1c104b63196dad') in 0.009828 seconds 
+  Import took 0.012383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.332826 seconds.
+  path: Assets/Assets/redDrop2 1.png
+  artifactKey: Guid(f57101df4a808cf429de0bc8295d6716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/redDrop2 1.png using Guid(f57101df4a808cf429de0bc8295d6716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa04ef255c1cf4ec574442c8ca40c99d') in 0.073816 seconds 
+  Import took 0.078912 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002761 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000028AFDEFF6F0 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028922A6DEA0 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002892330E010 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028920188FD0 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028922A1DDD0 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028AFE3AD410 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002892330E010 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000289228DEFE0 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002892330E010 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028922A70F10 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028920188FD0 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028AFE2E2010 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028AFDEFF6F0 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028922002020 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.962 seconds
+- Completed reload, in  0.949 seconds
 Domain Reload Profiling:
-	ReloadAssembly (963ms)
-		BeginReloadAssembly (135ms)
+	ReloadAssembly (950ms)
+		BeginReloadAssembly (134ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (765ms)
-			LoadAssemblies (104ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (753ms)
+			LoadAssemblies (98ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (269ms)
+			SetupTypeCache (266ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (278ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (263ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (162ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1541 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.7 MB.
+System memory in use after: 73.8 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2007.
+Total: 2.920300 ms (FindLiveObjects: 0.282200 ms CreateObjectMapping: 0.082400 ms MarkObjects: 2.535000 ms  DeleteObjects: 0.019800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009505 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000028AFA834420 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028922A6DEA0 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000289214B4010 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028920188FD0 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002892224E050 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028AFA733420 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000289214B4010 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028925046010 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000289214B4010 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028AFE77F430 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002892275D030 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028AFE2E2010 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028AFA834420 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028921536020 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.079 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1080ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (876ms)
+			LoadAssemblies (131ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (340ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (275ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (181ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (167ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1499 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.5 MB.
-System memory in use after: 67.6 MB.
+Unloading 1541 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.7 MB.
+System memory in use after: 73.8 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1943.
-Total: 2.632300 ms (FindLiveObjects: 0.132600 ms CreateObjectMapping: 0.045200 ms MarkObjects: 2.436900 ms  DeleteObjects: 0.016800 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2009.
+Total: 3.540900 ms (FindLiveObjects: 0.133800 ms CreateObjectMapping: 0.044500 ms MarkObjects: 3.303500 ms  DeleteObjects: 0.058000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005442 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000028921CFB020 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028922A6DEA0 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000289223E2020 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028920188FD0 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000289255B7040 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028924F00080 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000289255B7040 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028920E6D010 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000289255B7040 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028922A70F10 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002892275D030 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028AFDD60080 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028921CFB020 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028AFE94D010 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.300 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1301ms)
+		BeginReloadAssembly (143ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1061ms)
+			LoadAssemblies (127ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (434ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (346ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (209ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1541 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.7 MB.
+System memory in use after: 73.8 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2011.
+Total: 3.091500 ms (FindLiveObjects: 0.219100 ms CreateObjectMapping: 0.107900 ms MarkObjects: 2.737400 ms  DeleteObjects: 0.025000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -256,86 +546,306 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 36.096548 seconds.
+  Time since last request: 1121.802342 seconds.
   path: Assets/Scripts/redDropAnim.cs
   artifactKey: Guid(4f53846614e9a604e89ff009b8bc7c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/redDropAnim.cs using Guid(4f53846614e9a604e89ff009b8bc7c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5c6ee4e6f0359f42c456a0609d286de') in 0.007639 seconds 
-  Import took 0.010500 seconds .
+Start importing Assets/Scripts/redDropAnim.cs using Guid(4f53846614e9a604e89ff009b8bc7c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09142621a77b21f2ff865bc21d2914e9') in 0.016886 seconds 
+  Import took 0.025687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.620917 seconds.
+  path: Assets/Scripts/redDropAnim2.cs
+  artifactKey: Guid(3d742b26ff71ac94cafad273dc32c1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/redDropAnim2.cs using Guid(3d742b26ff71ac94cafad273dc32c1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1108e4377527586e9e79df4da160f85') in 0.017064 seconds 
+  Import took 0.023896 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.039868 seconds.
+Registered in 0.004313 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000027A07F6B020 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file data-00000289229B8010 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A0BED2460 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-0000028922A6DEA0 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A0CF6F020 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-0000028AFA02C050 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A0CDB4420 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-00000289209E7A70 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A0CF6F020 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-00000289255B7040 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A0BB2A010 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-0000028AFE6A8010 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A0CF6F020 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-0000028AFA02C050 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A1021A010 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-0000028920EAF020 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A0CF6F020 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-00000289255B7040 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A0D548010 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-0000028AFE77F430 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A0CDB4420 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-00000289209E7A70 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A0B52A020 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-0000028AFE97D010 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A0FCC5C20 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-00000289229B8010 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A07BA4010 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-0000028AFE94D010 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.948 seconds
+Domain Reload Profiling:
+	ReloadAssembly (948ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (748ms)
+			LoadAssemblies (105ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (264ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (266ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (164ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1542 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.8 MB.
+System memory in use after: 73.9 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2014.
+Total: 2.797300 ms (FindLiveObjects: 0.293600 ms CreateObjectMapping: 0.106200 ms MarkObjects: 2.376000 ms  DeleteObjects: 0.020800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 16.866842 seconds.
+  path: Assets/Scripts/redDropAnim2.cs
+  artifactKey: Guid(3d742b26ff71ac94cafad273dc32c1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/redDropAnim2.cs using Guid(3d742b26ff71ac94cafad273dc32c1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd1182229be144805a15b20f1e31049') in 0.005806 seconds 
+  Import took 0.010333 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003524 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002892214BE90 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000289200EC070 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028AFA1ED020 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028920188FD0 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028AFE029020 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028925CCE020 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028AFA1ED020 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028AFE6FC010 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028AFE029020 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028AFE77F430 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028920188FD0 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028AFE97D010 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002892214BE90 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002892191B010 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.975 seconds
+Domain Reload Profiling:
+	ReloadAssembly (976ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (786ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (286ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (275ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (174ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1542 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.8 MB.
+System memory in use after: 73.9 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2016.
+Total: 2.678900 ms (FindLiveObjects: 0.117900 ms CreateObjectMapping: 0.043200 ms MarkObjects: 2.493200 ms  DeleteObjects: 0.023600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 64.661397 seconds.
+  path: Assets/Scripts/redDropAnim2.cs
+  artifactKey: Guid(3d742b26ff71ac94cafad273dc32c1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/redDropAnim2.cs using Guid(3d742b26ff71ac94cafad273dc32c1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '045f1b675b3c574d2ebab78f3ae0712d') in 0.007595 seconds 
+  Import took 0.012431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.197178 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Prefabs/Text Popup.prefab
+  artifactKey: Guid(b06f0e6c1dfa4356ac918da1bb32c603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Prefabs/Text Popup.prefab using Guid(b06f0e6c1dfa4356ac918da1bb32c603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cfc9a213abdadeaaf50aead3d8ce267') in 0.140511 seconds 
+  Import took 0.149253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 2.prefab
+  artifactKey: Guid(fdad9d952ae84cafb74c63f2e694d042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 2.prefab using Guid(fdad9d952ae84cafb74c63f2e694d042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b307d9394793dae5a95f7c23e519964') in 0.087609 seconds 
+  Import took 0.096643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001183 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 1.prefab
+  artifactKey: Guid(a6e39ced0ea046bcb636c3f0b2e2a745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 1.prefab using Guid(a6e39ced0ea046bcb636c3f0b2e2a745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd1bb29a7088494544637876f483c583') in 0.056076 seconds 
+  Import took 0.070071 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003497 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000028AFE76A030 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000289255BEB90 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028921B87030 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028925EC0040 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028922AC4D40 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028921853030 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028923342010 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028925CC6010 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028925283020 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028AFA7DBD00 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028921A46DD0 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028922FFA040 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028AFDEFF6F0 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028922A3A950 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.411 seconds
+- Completed reload, in  0.951 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2412ms)
-		BeginReloadAssembly (134ms)
+	ReloadAssembly (951ms)
+		BeginReloadAssembly (121ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (2197ms)
-			LoadAssemblies (118ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (763ms)
+			LoadAssemblies (101ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1500ms)
+			SetupTypeCache (282ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (71ms)
-			SetupLoadedEditorAssemblies (356ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (269ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (102ms)
-				ProcessInitializeOnLoadAttributes (214ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (15ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (169ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1499 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.5 MB.
-System memory in use after: 67.6 MB.
+Unloading 1542 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.8 MB.
+System memory in use after: 73.9 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1945.
-Total: 3.396700 ms (FindLiveObjects: 0.138000 ms CreateObjectMapping: 0.057400 ms MarkObjects: 3.162300 ms  DeleteObjects: 0.037900 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2018.
+Total: 2.730500 ms (FindLiveObjects: 0.133600 ms CreateObjectMapping: 0.042100 ms MarkObjects: 2.531000 ms  DeleteObjects: 0.022800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -351,77 +861,163 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002993 seconds.
+Registered in 0.003829 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000027A07F6B020 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file data-0000028AFE76A030 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A0B6EBDA0 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-00000289255BEB90 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A0FE72110 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-0000028921B87030 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A0B751430 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000002892284D030 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A077CF020 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-0000028922AC4D40 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A0F1259B0 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-0000028921853030 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A0FE72110 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-0000028923342010 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A0F2D9020 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-0000028925CC6010 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A077CF020 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000028925283020 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A0D548010 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-0000028AFA7DBD00 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A0D52EE40 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-0000028921A46DD0 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A079FB490 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-0000028AFE234B70 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A07F6B020 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-0000028AFDEFF6F0 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A0BB4C420 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-0000028AFA329F30 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.943 seconds
+- Completed reload, in  1.098 seconds
 Domain Reload Profiling:
-	ReloadAssembly (944ms)
-		BeginReloadAssembly (104ms)
+	ReloadAssembly (1099ms)
+		BeginReloadAssembly (117ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (781ms)
-			LoadAssemblies (90ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (910ms)
+			LoadAssemblies (103ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (283ms)
+			SetupTypeCache (322ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (281ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (340ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (208ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1542 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.8 MB.
+System memory in use after: 73.9 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2020.
+Total: 2.706600 ms (FindLiveObjects: 0.179200 ms CreateObjectMapping: 0.057700 ms MarkObjects: 2.446400 ms  DeleteObjects: 0.022300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004302 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000028AFE76A030 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000289255BEB90 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028925E4E030 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028921947170 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028922AC4D40 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028921853030 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028AFA1ED020 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000289230620C0 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000289205BD070 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028AFA7DBD00 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028921A46DD0 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028AFE234B70 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028AFDEFF6F0 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028AFA329F30 doesn't match image C:\Users\howar\workspace\game programming\ReBitrh\rebirth\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.978 seconds
+Domain Reload Profiling:
+	ReloadAssembly (978ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (792ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (273ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (288ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (93ms)
-				ProcessInitializeOnLoadAttributes (166ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (169ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1499 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.6 MB.
-System memory in use after: 67.7 MB.
+Unloading 1542 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.8 MB.
+System memory in use after: 73.9 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1947.
-Total: 2.669500 ms (FindLiveObjects: 0.113000 ms CreateObjectMapping: 0.037700 ms MarkObjects: 2.499400 ms  DeleteObjects: 0.018600 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2022.
+Total: 2.850400 ms (FindLiveObjects: 0.129700 ms CreateObjectMapping: 0.055500 ms MarkObjects: 2.644200 ms  DeleteObjects: 0.020200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
