@@ -5,7 +5,6 @@ TagManager:
   serializedVersion: 2
   tags:
   - testcube
-  - money
   layers:
   - Default
   - TransparentFX
