@@ -27,14 +27,21 @@ public class Gamemanager : MonoBehaviour
             IEnumerator death(){
                 // Start the flash
                 sf.SetActive(true);
-                for (int i = 0; i < 5; i++)
+                for (int i = 0; i < 6; i++)
                 {
                     Debug.Log("enter" + i); 
-                    yield return new WaitForSeconds(1.15f);
+                    yield return new WaitForSeconds(1.75f);
                 }
                 // Trun off the flash
                 sf.SetActive(false);
 
+                blink.blink_eye(true);
+                for (int i = 0; i < 2; i++)
+                {
+                    Debug.Log("enter" + i);
+                    yield return new WaitForSeconds(2.65f);
+                }
+                blink.blink_eye(false);
 
             }
             // Flash the player's screen
