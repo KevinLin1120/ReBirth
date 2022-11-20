@@ -23,13 +23,13 @@ public class blink : MonoBehaviour
         
     }
 
-    public void blink_eye(bool isEnabled)
+    public void blink_eye(bool enabledStatus)
     {
         //StartCoroutine(startBlink(times));
         //startBlink(times);
 
         // Start the blinking anim
-        anim.enabled = isEnabled;
+        anim.enabled = enabledStatus;
 
     }
     //IEnumerator startBlink(int times)
