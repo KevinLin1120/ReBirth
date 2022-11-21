@@ -50,8 +50,8 @@ public class Gamemanager : MonoBehaviour
                 yield return new WaitForSeconds(5f);
                 passOut.startPassOut(false);
 
-                //blink_top.position.y = 0.5f;
-                //blink_bottom.position.y = 0.5f;
+                blink_top.localPosition = new Vector3(0, 1.5f, 0.459999114f);
+                blink_bottom.localPosition = new Vector3(0, -1.5f, 0.459999114f);
 
                 reborn.startReborn(true);
                 yield return new WaitForSeconds(2f);

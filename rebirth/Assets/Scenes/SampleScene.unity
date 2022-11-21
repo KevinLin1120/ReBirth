@@ -1670,6 +1670,9 @@ MonoBehaviour:
   screenFlash: {fileID: 1026152088}
   blink: {fileID: 184481632}
   passOut: {fileID: 963194231}
+  reborn: {fileID: 1812035864}
+  blink_top: {fileID: 968812312}
+  blink_bottom: {fileID: 1778077625}
 --- !u!4 &1224925347
 Transform:
   m_ObjectHideFlags: 0
@@ -1893,6 +1896,7 @@ GameObject:
   - component: {fileID: 1812035861}
   - component: {fileID: 1812035863}
   - component: {fileID: 1812035860}
+  - component: {fileID: 1812035864}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1908,7 +1912,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1812035859}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: f8e14668562274d1c8643625f550332b, type: 2}
   m_CullingMode: 0
@@ -1967,6 +1971,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gm: {fileID: 1224925346}
+--- !u!114 &1812035864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1812035859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d95b0b47697704037af848bbaca51536, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2117330212
 GameObject:
   m_ObjectHideFlags: 0
