@@ -5,9 +5,11 @@ using UnityEngine;
 public class Gamemanager : MonoBehaviour
 {
     public bool isDeath = false;
-    //public screenFlash sf;
-    public GameObject sf;
+    public GameObject screenFlash;
     public blink blink;
+    public passOut passOut;
+    public reborn reborn;
+    public Transform blink_top, blink_bottom;
 
     
 
@@ -26,24 +28,44 @@ public class Gamemanager : MonoBehaviour
             StartCoroutine(death());
             IEnumerator death(){
                 // Start the flash
-                sf.SetActive(true);
-                for (int i = 0; i < 5; i++)
+                screenFlash.SetActive(true);
+                for (int i = 0; i < 6; i++)
                 {
                     Debug.Log("enter" + i); 
-                    yield return new WaitForSeconds(1.15f);
+                    yield return new WaitForSeconds(1.75f);
                 }
-                // Trun off the flash
-                sf.SetActive(false);
+                // Stop the flash
+                screenFlash.SetActive(false);
 
+                // Start blinking
+                blink.blink_eye(true);
+                // First time
+                yield return new WaitForSeconds(2.65f);
+                // Half of second time
+                yield return new WaitForSeconds(1.2f);
+                // Stop blinking
+                blink.blink_eye(false);
+
+                passOut.startPassOut(true);
+                yield return new WaitForSeconds(5f);
+                passOut.startPassOut(false);
+
+                blink_top.localPosition = new Vector3(0, 1.5f, 0.459999114f);
+                blink_bottom.localPosition = new Vector3(0, -1.5f, 0.459999114f);
+
+                reborn.startReborn(true);
+                yield return new WaitForSeconds(2f);
+                reborn.startReborn(false);
 
             }
             // Flash the player's screen
-            //sf.flash(8);
+            //screenFlash.flash(8);
             // Blink
             //blink.blink_eye(6);
             // Reborn
             //blink.openEye();
             isDeath = !isDeath;
+            
         }
     }
 }

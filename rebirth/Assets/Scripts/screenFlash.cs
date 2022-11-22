@@ -36,7 +36,7 @@ public class screenFlash : MonoBehaviour
 
         //startFlash(times);
 
-        screen.SetActive(screen.activeSelf == true ? false : true);
+        screen.SetActive(true);
 
     }
     //Start the screen flash 
