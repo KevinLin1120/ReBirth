@@ -14,8 +14,6 @@ public class cardOpen : MonoBehaviour
 
     private void OnMouseUpAsButton() {
         Debug.Log("OnMouseUpAsButton");
-        if(Panel != null){
             Panel.SetActive(true);
-        }
     }
 }
