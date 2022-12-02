@@ -235,8 +235,8 @@ GameObject:
   - component: {fileID: 103550864}
   - component: {fileID: 103550863}
   - component: {fileID: 103550862}
-  - component: {fileID: 103550866}
   - component: {fileID: 103550867}
+  - component: {fileID: 103550866}
   m_Layer: 5
   m_Name: Cylinder7
   m_TagString: wrong
@@ -303,7 +303,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 103550860}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -365,7 +365,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 103550860}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
@@ -549,8 +549,8 @@ GameObject:
   - component: {fileID: 165970844}
   - component: {fileID: 165970843}
   - component: {fileID: 165970842}
-  - component: {fileID: 165970846}
   - component: {fileID: 165970847}
+  - component: {fileID: 165970846}
   m_Layer: 5
   m_Name: Cylinder3
   m_TagString: wrong
@@ -617,7 +617,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 165970840}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -679,7 +679,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 165970840}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
@@ -729,8 +729,8 @@ GameObject:
   - component: {fileID: 407608525}
   - component: {fileID: 407608524}
   - component: {fileID: 407608523}
-  - component: {fileID: 407608527}
   - component: {fileID: 407608528}
+  - component: {fileID: 407608527}
   m_Layer: 5
   m_Name: Cylinder9
   m_TagString: wrong
@@ -797,7 +797,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 407608521}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -859,7 +859,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 407608521}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
@@ -909,8 +909,8 @@ GameObject:
   - component: {fileID: 448664396}
   - component: {fileID: 448664395}
   - component: {fileID: 448664394}
-  - component: {fileID: 448664398}
   - component: {fileID: 448664399}
+  - component: {fileID: 448664398}
   m_Layer: 5
   m_Name: Cylinder2
   m_TagString: wrong
@@ -977,7 +977,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 448664392}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -1039,7 +1039,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 448664392}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
@@ -1089,6 +1089,7 @@ GameObject:
   - component: {fileID: 487901297}
   - component: {fileID: 487901296}
   - component: {fileID: 487901295}
+  - component: {fileID: 487901300}
   - component: {fileID: 487901299}
   m_Layer: 5
   m_Name: Cylinder10
@@ -1156,7 +1157,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 487901293}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -1211,6 +1212,50 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   niddle: {fileID: 487901293}
+--- !u!114 &487901300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 487901293}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 0}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &638533171
 GameObject:
   m_ObjectHideFlags: 0
@@ -1620,8 +1665,8 @@ GameObject:
   - component: {fileID: 1526693461}
   - component: {fileID: 1526693460}
   - component: {fileID: 1526693459}
-  - component: {fileID: 1526693463}
   - component: {fileID: 1526693464}
+  - component: {fileID: 1526693463}
   m_Layer: 5
   m_Name: Cylinder6
   m_TagString: wrong
@@ -1688,7 +1733,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1526693457}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -1750,7 +1795,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1526693457}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
@@ -2085,8 +2130,8 @@ GameObject:
   - component: {fileID: 1550495191}
   - component: {fileID: 1550495190}
   - component: {fileID: 1550495189}
-  - component: {fileID: 1550495193}
   - component: {fileID: 1550495194}
+  - component: {fileID: 1550495193}
   m_Layer: 5
   m_Name: Cylinder4
   m_TagString: right
@@ -2153,7 +2198,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1550495187}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -2215,7 +2260,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1550495187}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
@@ -2299,8 +2344,8 @@ GameObject:
   - component: {fileID: 1639212117}
   - component: {fileID: 1639212116}
   - component: {fileID: 1639212115}
-  - component: {fileID: 1639212119}
   - component: {fileID: 1639212120}
+  - component: {fileID: 1639212119}
   m_Layer: 5
   m_Name: Cylinder5
   m_TagString: wrong
@@ -2367,7 +2412,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1639212113}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -2421,7 +2466,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a5374e0e2b238e4fa8c62c32c4eb17e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  niddle: {fileID: 0}
+  niddle: {fileID: 1639212113}
 --- !u!114 &1639212120
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2429,7 +2474,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1639212113}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
@@ -2479,8 +2524,8 @@ GameObject:
   - component: {fileID: 1712689802}
   - component: {fileID: 1712689801}
   - component: {fileID: 1712689800}
-  - component: {fileID: 1712689804}
   - component: {fileID: 1712689805}
+  - component: {fileID: 1712689804}
   m_Layer: 5
   m_Name: Cylinder8
   m_TagString: wrong
@@ -2547,7 +2592,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1712689798}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -2609,7 +2654,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1712689798}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
@@ -2861,8 +2906,8 @@ GameObject:
   - component: {fileID: 2073389995}
   - component: {fileID: 2073389994}
   - component: {fileID: 2073389993}
-  - component: {fileID: 2073389997}
   - component: {fileID: 2073389998}
+  - component: {fileID: 2073389997}
   m_Layer: 5
   m_Name: Cylinder1
   m_TagString: wrong
@@ -2877,7 +2922,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2073389991}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -322.66}
   m_LocalScale: {x: 1.8122147, y: 3.1248019, z: 1.8122147}
   m_Children: []
@@ -2886,7 +2931,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -25.17725, y: 36.799995}
+  m_AnchoredPosition: {x: -22.5, y: 31.5}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &2073389993
@@ -2929,7 +2974,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2073389991}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -2991,7 +3036,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2073389991}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 

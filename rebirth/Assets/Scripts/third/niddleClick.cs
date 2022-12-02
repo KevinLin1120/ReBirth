@@ -16,9 +16,11 @@ public class niddleClick : MonoBehaviour
     // {
         
     // }
-    private void OnMouseDown(Collider other) {
-        Debug.Log("OnMouseUpAsButton");
-        niddle.SetActive(false);
+    private void OnMouseDown() {
+        // Debug.Log("OnMouseUpAsButton");
+        Debug.Log("OnMouseDown");
+        // niddle.SetActive(false);
+        // niddle.position = niddle.position + new Vector3(0, 10, 0);
         // if(niddle.tag == "right"){
         //     niddle.SetActive(false);
         //     Debug.Log("right");
@@ -27,4 +29,6 @@ public class niddleClick : MonoBehaviour
         //     Debug.Log("wrong");            
         // }
     }
+
+    
 }
