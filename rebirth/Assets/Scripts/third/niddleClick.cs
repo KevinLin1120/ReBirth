@@ -16,14 +16,15 @@ public class niddleClick : MonoBehaviour
     // {
         
     // }
-    private void OnMouseUpAsButton(Collider other) {
+    private void OnMouseDown(Collider other) {
         Debug.Log("OnMouseUpAsButton");
-        if(niddle.tag == "right"){
-            niddle.SetActive(false);
-            Debug.Log("right");
-        }else if(niddle.tag == "wrong"){
-            niddle.SetActive(false);
-            Debug.Log("wrong");            
-        }
+        niddle.SetActive(false);
+        // if(niddle.tag == "right"){
+        //     niddle.SetActive(false);
+        //     Debug.Log("right");
+        // }else if(niddle.tag == "wrong"){
+        //     niddle.SetActive(false);
+        //     Debug.Log("wrong");            
+        // }
     }
 }
