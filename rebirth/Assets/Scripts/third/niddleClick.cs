@@ -5,12 +5,13 @@ using UnityEngine;
 public class niddleClick : MonoBehaviour
 {
     public GameObject niddle;
+    public Animator anim;
     
     // Start is called before the first frame update
-    // void Start()
-    // {
-        
-    // }
+    void Start()
+    {
+        anim = gameObject.GetComponent<Animator>();
+    }
 
     // // Update is called once per frame
     // void Update()
@@ -18,18 +19,32 @@ public class niddleClick : MonoBehaviour
         
     // }
     private void OnMouseDown() {
+        int i = 1;
         // Debug.Log("OnMouseUpAsButton");
         Debug.Log("OnMouseDown");
         // niddle.SetActive(false);
         // niddle.position = niddle.position + new Vector3(0, 10, 0);
         if(niddle.tag == "right"){
             // niddle.SetActive(false);
-            niddle.transform.position = niddle.transform.position += new Vector3(0, 10, 0);
+            // niddle.transform.position = niddle.transform.position += new Vector3(0, 10, 0);
+            // anim.SetActive(false);
+            anim.enabled = false;
+            niddle.transform.Translate( new Vector3(0, 0.2f, 0));
             Debug.Log("right");
+            // i++;
+            // Debug.Log(i);
+
         }else if(niddle.tag == "wrong"){
             // niddle.SetActive(false);     
-            niddle.transform.position = niddle.transform.position += new Vector3(0, 10, 0);
+            // anim.SetActive(false);
+            anim.enabled = false;
+            niddle.transform.position = niddle.transform.position += new Vector3(0, 0.2f, 0);
             Debug.Log("wrong");            
+            // i++;
+            // Debug.Log(i);
+        }
+        if(i==8){
+            niddle.SetActive(false);
         }
     }
 
