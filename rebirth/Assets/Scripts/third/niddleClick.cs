@@ -7,6 +7,7 @@ public class niddleClick : MonoBehaviour
     public GameObject niddle;
     public Animator anim;
     
+    public int i = 1;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +20,6 @@ public class niddleClick : MonoBehaviour
         
     // }
     private void OnMouseDown() {
-        int i = 1;
         // Debug.Log("OnMouseUpAsButton");
         Debug.Log("OnMouseDown");
         // niddle.SetActive(false);
@@ -33,7 +33,6 @@ public class niddleClick : MonoBehaviour
             Debug.Log("right");
             // i++;
             // Debug.Log(i);
-
         }else if(niddle.tag == "wrong"){
             // niddle.SetActive(false);     
             // anim.SetActive(false);
@@ -43,8 +42,10 @@ public class niddleClick : MonoBehaviour
             // i++;
             // Debug.Log(i);
         }
-        if(i==8){
-            niddle.SetActive(false);
+        i++;
+        Debug.Log(i);
+        if(i == 8){
+            Debug.Log("done");
         }
     }
 
