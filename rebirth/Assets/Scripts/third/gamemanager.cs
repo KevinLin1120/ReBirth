@@ -16,8 +16,4 @@ public class gamemanager : MonoBehaviour
     {
         
     }
-
-    public void checkClicks(){
-        Debug.Log("checkClicks");
-    }
 }
