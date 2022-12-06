@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Video;
 
 public class Gamemanager : MonoBehaviour
 {
     public GameObject blackPanel, video, skipBtn;
+    public VideoPlayer vid;
+    public bool isPlayEnd = false;
 
     public bool isDeath = false;
     public GameObject screenFlash;
@@ -19,6 +22,7 @@ public class Gamemanager : MonoBehaviour
         Cursor.visible = true;
         Cursor.lockState = 0;
 
+        vid.loopPointReached += playOver;
         // Delay 3s and indicate the btn
         StartCoroutine(playVideo());
     }
@@ -77,5 +81,10 @@ public class Gamemanager : MonoBehaviour
         video.SetActive(true);
         yield return new WaitForSeconds(3);
         skipBtn.SetActive(true);
+    }
+
+    void playOver(UnityEngine.Video.VideoPlayer vp)
+    {
+        Debug.Log("end");
     }
 }
