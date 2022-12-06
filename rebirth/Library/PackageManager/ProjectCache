@@ -5,16 +5,26 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< HEAD
       ticks: 638057397020000000
     m_Hash: 2130276017
+=======
+      ticks: 638035207290000000
+    m_Hash: 228985270
+>>>>>>> parent of 31cc09d7 (BGM)
   m_LockFileStatus:
     m_FilePath: /Users/kevinlin/Documents/Game Programing II/ReBitrh/rebirth/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< HEAD
       ticks: 638057397020000000
     m_Hash: 964455466
+=======
+      ticks: 638035207310000000
+    m_Hash: 1587512919
+>>>>>>> parent of 31cc09d7 (BGM)
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
