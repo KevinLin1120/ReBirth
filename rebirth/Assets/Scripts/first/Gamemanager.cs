@@ -9,6 +9,8 @@ public class Gamemanager : MonoBehaviour
     public VideoPlayer vid;
     public bool isPlayEnd = false;
 
+    public GameObject bgm;
+
     public bool isDeath = false;
     public GameObject screenFlash;
     public blink blink;
@@ -60,7 +62,7 @@ public class Gamemanager : MonoBehaviour
         blink.blink_eye(false);
 
         passOut.startPassOut(true);
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(5.26f);
         passOut.startPassOut(false);
 
         blink_top.localPosition = new Vector3(0, 1.5f, 0.459999114f);
@@ -85,6 +87,8 @@ public class Gamemanager : MonoBehaviour
 
     void playOver(UnityEngine.Video.VideoPlayer vp)
     {
-        Debug.Log("end");
+        video.SetActive(false);
+        skipBtn.SetActive(false);
+        bgm.SetActive(true);
     }
 }
