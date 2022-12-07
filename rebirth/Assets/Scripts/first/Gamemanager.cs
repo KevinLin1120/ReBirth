@@ -9,6 +9,8 @@ public class Gamemanager : MonoBehaviour
     public VideoPlayer vid;
     public bool isPlayEnd = false;
 
+    public TimeCount tick;
+
     public GameObject bgm;
 
     public bool isDeath = false;
@@ -32,6 +34,7 @@ public class Gamemanager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        isDeath = (tick.secondLeft == 5) ? true : false;
         // If player is going to dead
         if (isDeath)
         {

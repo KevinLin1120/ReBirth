@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657815, g: 0.49641192, b: 0.57481617, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2548,6 +2548,7 @@ MonoBehaviour:
   skipBtn: {fileID: 1847575672}
   vid: {fileID: 630725526}
   isPlayEnd: 0
+  tick: {fileID: 1883894976}
   bgm: {fileID: 1105436053}
   isDeath: 0
   screenFlash: {fileID: 1026152088}
@@ -4016,7 +4017,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 273203962}
-  secondLeft: 30
+  secondLeft: 10
   timeGo: 0
 --- !u!1 &1913320847
 GameObject:
