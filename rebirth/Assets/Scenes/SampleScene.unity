@@ -2255,6 +2255,7 @@ GameObject:
   - component: {fileID: 320690715}
   - component: {fileID: 320690714}
   - component: {fileID: 320690713}
+  - component: {fileID: 320690712}
   m_Layer: 5
   m_Name: closeButton
   m_TagString: Untagged
@@ -2282,6 +2283,19 @@ RectTransform:
   m_AnchoredPosition: {x: 35.915466, y: 53.24759}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &320690712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 320690710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdf11002d2f756744bab0a653abc4587, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Panel: {fileID: 1739881816}
 --- !u!114 &320690713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6236,7 +6250,7 @@ RectTransform:
   m_GameObject: {fileID: 1739881816}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.30764, y: 0.30764, z: 0.30764}
   m_Children:
   - {fileID: 788883477}
   m_Father: {fileID: 1672970776}
@@ -6244,7 +6258,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0.0052089007, y: -8.436998}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1768312272
@@ -6382,7 +6396,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1793513274
 Transform:
   m_ObjectHideFlags: 0
@@ -6391,7 +6405,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1793513273}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.03, y: 1.98, z: 0}
+  m_LocalPosition: {x: 6.11, y: 0.97, z: 0}
   m_LocalScale: {x: 0.1855417, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 929129410}
@@ -6404,11 +6418,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1793513273}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 77b9ad84f275d23409f6761596daa1de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  button: {fileID: 1793513273}
   Panel: {fileID: 1739881816}
 --- !u!114 &1793513276
 MonoBehaviour:

@@ -5,6 +5,7 @@ using OVRTouchSample;
 
 public class cardOpen : MonoBehaviour
 {
+    public GameObject button;
     public GameObject Panel;
 
     // public void OpenPanel(){
@@ -13,12 +14,15 @@ public class cardOpen : MonoBehaviour
     //     }
     // }
 
-    private void Start(){
-        //VR
-        if(OVRInput.GetDown(OVRInput.RawButton.RShoulder)){
+    void Start(){
+        
+    }
+    void Update(){
+        if(OVRInput.Get(OVRInput.Button.One)){
             Panel.SetActive(true);
         }
     }
+
     private void OnMouseUpAsButton() {
         Debug.Log("OnMouseUpAsButton");
             Panel.SetActive(true);
