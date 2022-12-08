@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using OVRTouchSample;
 
 public class cardOpen : MonoBehaviour
 {
@@ -12,6 +13,12 @@ public class cardOpen : MonoBehaviour
     //     }
     // }
 
+    private void Start(){
+        //VR
+        if(OVRInput.GetDown(OVRInput.RawButton.RShoulder)){
+            Panel.SetActive(true);
+        }
+    }
     private void OnMouseUpAsButton() {
         Debug.Log("OnMouseUpAsButton");
             Panel.SetActive(true);
