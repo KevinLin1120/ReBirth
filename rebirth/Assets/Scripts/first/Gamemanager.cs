@@ -5,7 +5,7 @@ using UnityEngine.Video;
 
 public class Gamemanager : MonoBehaviour
 {
-    public GameObject blackPanel, video, skipBtn;
+    public GameObject blackPanel, video, skipBtn, videoCanvas;
     public VideoPlayer vid;
     public bool isPlayEnd = false;
 
@@ -25,6 +25,9 @@ public class Gamemanager : MonoBehaviour
     {
         Cursor.visible = true;
         Cursor.lockState = 0;
+
+        // Stop the countdown
+        tick.enabled = false;
 
         vid.loopPointReached += playOver;
         // Delay 3s and indicate the btn
@@ -79,10 +82,10 @@ public class Gamemanager : MonoBehaviour
 
     IEnumerator playVideo()
     {
-        blackPanel.SetActive(true);
+        // blackPanel.SetActive(true);
         // Delay 3s
         yield return new WaitForSeconds(3);
-        blackPanel.SetActive(false);
+        // blackPanel.SetActive(false);
         video.SetActive(true);
         yield return new WaitForSeconds(3);
         skipBtn.SetActive(true);
@@ -92,6 +95,9 @@ public class Gamemanager : MonoBehaviour
     {
         video.SetActive(false);
         skipBtn.SetActive(false);
+        videoCanvas.SetActive(false);
         bgm.SetActive(true);
+        // Start to countdown
+        tick.enabled = true;
     }
 }
