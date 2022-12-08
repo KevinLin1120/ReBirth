@@ -15,12 +15,12 @@ D:/Rebirth/ReBirth/rebirth
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50425
+56651
 Successfully changed project path to: D:/Rebirth/ReBirth/rebirth
 D:/Rebirth/ReBirth/rebirth
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 71.77 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 1.51 ms.
+Refreshing native plugins compatible for Editor in 70.00 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 1.52 ms.
 Initialize engine version: 2020.3.29f1 (2ff179115da0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Rebirth/ReBirth/rebirth/Assets
@@ -36,41 +36,41 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56696
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
-Registered in 0.002744 seconds.
+Registered in 0.002752 seconds.
 Native extension for Lumin target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 64.18 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 60.62 ms, found 7 plugins.
 Preloading 1 native plugins for Editor in 0.03 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.576 seconds
+- Completed reload, in  0.537 seconds
 Domain Reload Profiling:
-	ReloadAssembly (576ms)
-		BeginReloadAssembly (62ms)
+	ReloadAssembly (537ms)
+		BeginReloadAssembly (56ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (451ms)
-			LoadAssemblies (61ms)
+		EndReloadAssembly (418ms)
+			LoadAssemblies (55ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (148ms)
+			SetupTypeCache (130ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (176ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (169ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (64ms)
+				RefreshPlugins (61ms)
 				BeforeProcessingInitializeOnLoad (11ms)
-				ProcessInitializeOnLoadAttributes (73ms)
+				ProcessInitializeOnLoadAttributes (68ms)
 				ProcessInitializeOnLoadMethodAttributes (23ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -78,53 +78,53 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004000 seconds.
+Registered in 0.004121 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000002648AE74960 doesn't match image D:\Rebirth\ReBirth\rebirth\Library\ScriptAssemblies\Oculus.Voice.Demo.dll
+Symbol file data-0000024187B36020 doesn't match image D:\Rebirth\ReBirth\rebirth\Library\ScriptAssemblies\Oculus.Voice.Demo.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002648AAA5090 doesn't match image D:\Rebirth\ReBirth\rebirth\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000002418C2F2020 doesn't match image D:\Rebirth\ReBirth\rebirth\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002648BB7BC60 doesn't match image D:\Rebirth\ReBirth\rebirth\Library\ScriptAssemblies\Oculus.VR.dll
+Symbol file data-0000024188358750 doesn't match image D:\Rebirth\ReBirth\rebirth\Library\ScriptAssemblies\Oculus.VR.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026486B75800 doesn't match image D:\Rebirth\ReBirth\rebirth\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file data-000002418D26BC20 doesn't match image D:\Rebirth\ReBirth\rebirth\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002648AC70070 doesn't match image D:\Rebirth\ReBirth\rebirth\Library\ScriptAssemblies\Unity.XR.Oculus.dll
+Symbol file data-000002418D508B70 doesn't match image D:\Rebirth\ReBirth\rebirth\Library\ScriptAssemblies\Unity.XR.Oculus.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for Lumin target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+Refreshing native plugins compatible for Editor in 0.82 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.03 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
 [XR] Unable to register input lifecyle provider: [1]
 [XR] OVRP version 1.78.0
 Mono: successfully reloaded assembly
-- Completed reload, in  1.052 seconds
+- Completed reload, in  0.970 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1053ms)
-		BeginReloadAssembly (143ms)
+	ReloadAssembly (971ms)
+		BeginReloadAssembly (142ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (856ms)
-			LoadAssemblies (100ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (776ms)
+			LoadAssemblies (97ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (303ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (310ms)
+			SetupTypeCache (265ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (283ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (95ms)
-				ProcessInitializeOnLoadAttributes (183ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (165ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
@@ -133,14 +133,14 @@ Platform modules already initialized, skipping
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.86 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 0.90 ms, found 7 plugins.
 Preloading 1 native plugins for Editor in 0.03 ms.
 Unloading 2981 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 134.6 MB.
-System memory in use after: 134.8 MB.
+System memory in use before: 134.5 MB.
+System memory in use after: 134.7 MB.
 
 Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 3394.
-Total: 3.891200 ms (FindLiveObjects: 0.263100 ms CreateObjectMapping: 0.216500 ms MarkObjects: 3.159200 ms  DeleteObjects: 0.250200 ms)
+Total: 2.978700 ms (FindLiveObjects: 0.225600 ms CreateObjectMapping: 0.151900 ms MarkObjects: 2.525300 ms  DeleteObjects: 0.075200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -155,225 +155,118 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Animation/first/reborn.anim
-  artifactKey: Guid(7107beee1cd4940ec9c54b1f9c235b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/first/reborn.anim using Guid(7107beee1cd4940ec9c54b1f9c235b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4195245a0b347bc59fd1232eba6b7ef8') in 0.030458 seconds 
-  Import took 0.034696 seconds .
+  path: Assets/Assets/first/Models
+  artifactKey: Guid(72bd707a4f1df30418f4bd8ff1e55361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/first/Models using Guid(72bd707a4f1df30418f4bd8ff1e55361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d912fe1d64ef658b0a25545fe643cd') in 0.004719 seconds 
+  Import took 0.008783 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 65.397534 seconds.
-  path: Assets/Animation/first/CenterEyeAnchor.controller
-  artifactKey: Guid(2695823d4db44b0429f455d445dbbb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/first/CenterEyeAnchor.controller using Guid(2695823d4db44b0429f455d445dbbb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0bb1fdc040a19a7d56cd961bc2dfd35') in 0.007325 seconds 
-  Import took 0.012292 seconds .
+  Time since last request: 10.679711 seconds.
+  path: Assets/Assets/first/Models/bed.fbx
+  artifactKey: Guid(f29bc739ae108b54dae83b5c5b9e2051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/first/Models/bed.fbx using Guid(f29bc739ae108b54dae83b5c5b9e2051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffde41a3c79954488a0f16b1bf83c4b5') in 0.219748 seconds 
+  Import took 0.225486 seconds .
 
 ========================================================================
-Received Prepare
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 10.70 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
-Unloading 41 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.1 MB.
-System memory in use after: 69.3 MB.
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Assets/first/Models/firstsense.fbx
+  artifactKey: Guid(7c7a0e9696c86df4a8eeeddab49df532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/first/Models/firstsense.fbx using Guid(7c7a0e9696c86df4a8eeeddab49df532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d8f5eaac16933e7b7bd44bb407ea7b9') in 0.104471 seconds 
+  Import took 0.108361 seconds .
 
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3394.
-Total: 4.913000 ms (FindLiveObjects: 0.261400 ms CreateObjectMapping: 0.208600 ms MarkObjects: 4.397600 ms  DeleteObjects: 0.044500 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Assets/first/Models/dad.fbx
+  artifactKey: Guid(37e39600a4bc53345acb6ae7586a7282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/first/Models/dad.fbx using Guid(37e39600a4bc53345acb6ae7586a7282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '630ba3ac1aa9ec0cde527d792a5f02cd') in 0.017429 seconds 
+  Import took 0.021232 seconds .
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Assets/first/Models/safe box.fbx
+  artifactKey: Guid(c35ea8ff31074234d8da50f137eb1341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/first/Models/safe box.fbx using Guid(c35ea8ff31074234d8da50f137eb1341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bc13a2940ca36c60711bbf2d2791bcd') in 0.077764 seconds 
+  Import took 0.081695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Assets/first/Models/tv.fbx
+  artifactKey: Guid(d26d1f0199e6325478708390f91a5fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/first/Models/tv.fbx using Guid(d26d1f0199e6325478708390f91a5fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3640bdd850aff6468db5ea94401e5083') in 0.043351 seconds 
+  Import took 0.047072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Assets/first/Models/winniebottom.fbx
+  artifactKey: Guid(0e9f5dec13af00548a79f062e65e4154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/first/Models/winniebottom.fbx using Guid(0e9f5dec13af00548a79f062e65e4154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b142cb5a7065d66eca31ec2a2451e245') in 0.017950 seconds 
+  Import took 0.022042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Assets/first/Models/mom.fbx
+  artifactKey: Guid(e089901f751d74f40a2bc768c6faed79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/first/Models/mom.fbx using Guid(e089901f751d74f40a2bc768c6faed79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffbb7ad8903e625c2b566fb40bd70ee3') in 0.017809 seconds 
+  Import took 0.021617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Assets/first/Models/money.fbx
+  artifactKey: Guid(518ef8c63a8308a4ea0d46adb7b884a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/first/Models/money.fbx using Guid(518ef8c63a8308a4ea0d46adb7b884a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74fedca9f7f5ee65696523cd51ab7fbc') in 0.051535 seconds 
+  Import took 0.055340 seconds .
+
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005076 seconds.
+Registered in 0.004588 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000002648708B290 doesn't match image D:\Rebirth\ReBirth\rebirth\Library\ScriptAssemblies\Oculus.Voice.Demo.dll
+Symbol file data-000002418C546030 doesn't match image D:\Rebirth\ReBirth\rebirth\Library\ScriptAssemblies\Oculus.Voice.Demo.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026486939300 doesn't match image D:\Rebirth\ReBirth\rebirth\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000002419115F4F0 doesn't match image D:\Rebirth\ReBirth\rebirth\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002649182F020 doesn't match image D:\Rebirth\ReBirth\rebirth\Library\ScriptAssemblies\Oculus.VR.dll
+Symbol file data-000002418EF18020 doesn't match image D:\Rebirth\ReBirth\rebirth\Library\ScriptAssemblies\Oculus.VR.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026486B75800 doesn't match image D:\Rebirth\ReBirth\rebirth\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file data-0000024192927390 doesn't match image D:\Rebirth\ReBirth\rebirth\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026486963C70 doesn't match image D:\Rebirth\ReBirth\rebirth\Library\ScriptAssemblies\Unity.XR.Oculus.dll
+Symbol file data-000002418D269010 doesn't match image D:\Rebirth\ReBirth\rebirth\Library\ScriptAssemblies\Unity.XR.Oculus.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for Lumin target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 0.03 ms.
+Refreshing native plugins compatible for Editor in 0.85 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.888 seconds
+- Completed reload, in  0.885 seconds
 Domain Reload Profiling:
-	ReloadAssembly (888ms)
-		BeginReloadAssembly (105ms)
+	ReloadAssembly (886ms)
+		BeginReloadAssembly (109ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (730ms)
-			LoadAssemblies (91ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (725ms)
+			LoadAssemblies (93ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (266ms)
+			SetupTypeCache (271ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (264ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (254ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (162ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.25 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 2874 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 125.1 MB.
-System memory in use after: 125.3 MB.
-
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 3397.
-Total: 3.129100 ms (FindLiveObjects: 0.365200 ms CreateObjectMapping: 0.198300 ms MarkObjects: 2.495700 ms  DeleteObjects: 0.069300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004694 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000002648708B290 doesn't match image D:\Rebirth\ReBirth\rebirth\Library\ScriptAssemblies\Oculus.Voice.Demo.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002648A828010 doesn't match image D:\Rebirth\ReBirth\rebirth\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000264B34B3010 doesn't match image D:\Rebirth\ReBirth\rebirth\Library\ScriptAssemblies\Oculus.VR.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026486F02330 doesn't match image D:\Rebirth\ReBirth\rebirth\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002648F3AA690 doesn't match image D:\Rebirth\ReBirth\rebirth\Library\ScriptAssemblies\Unity.XR.Oculus.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for Lumin target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.32 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.947 seconds
-Domain Reload Profiling:
-	ReloadAssembly (948ms)
-		BeginReloadAssembly (109ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (785ms)
-			LoadAssemblies (101ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (278ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (283ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (98ms)
-				ProcessInitializeOnLoadAttributes (162ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 0.03 ms.
-Unloading 2874 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 125.1 MB.
-System memory in use after: 125.4 MB.
-
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 3400.
-Total: 2.532100 ms (FindLiveObjects: 0.204000 ms CreateObjectMapping: 0.128700 ms MarkObjects: 2.151000 ms  DeleteObjects: 0.047700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004525 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000002648677F280 doesn't match image D:\Rebirth\ReBirth\rebirth\Library\ScriptAssemblies\Oculus.Voice.Demo.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002648A828010 doesn't match image D:\Rebirth\ReBirth\rebirth\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002648E36F020 doesn't match image D:\Rebirth\ReBirth\rebirth\Library\ScriptAssemblies\Oculus.VR.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002648D982E30 doesn't match image D:\Rebirth\ReBirth\rebirth\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026486C3A3C0 doesn't match image D:\Rebirth\ReBirth\rebirth\Library\ScriptAssemblies\Unity.XR.Oculus.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for Lumin target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.902 seconds
-Domain Reload Profiling:
-	ReloadAssembly (903ms)
-		BeginReloadAssembly (103ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (744ms)
-			LoadAssemblies (94ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (276ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (261ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (161ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (156ms)
 				ProcessInitializeOnLoadMethodAttributes (10ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
@@ -381,14 +274,14 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 0.87 ms, found 7 plugins.
 Preloading 1 native plugins for Editor in 0.03 ms.
 Unloading 2874 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 125.2 MB.
-System memory in use after: 125.4 MB.
+System memory in use before: 128.4 MB.
+System memory in use after: 128.6 MB.
 
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 3403.
-Total: 2.799300 ms (FindLiveObjects: 0.199900 ms CreateObjectMapping: 0.118700 ms MarkObjects: 2.409600 ms  DeleteObjects: 0.070500 ms)
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 3440.
+Total: 2.617500 ms (FindLiveObjects: 0.216400 ms CreateObjectMapping: 0.138300 ms MarkObjects: 2.233000 ms  DeleteObjects: 0.029300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
