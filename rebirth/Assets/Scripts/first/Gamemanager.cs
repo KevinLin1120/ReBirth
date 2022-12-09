@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Video;
+ using UnityEngine.SceneManagement;
 
 public class Gamemanager : MonoBehaviour
 {
@@ -77,7 +78,8 @@ public class Gamemanager : MonoBehaviour
         reborn.startReborn(true);
         yield return new WaitForSeconds(2f);
         reborn.startReborn(false);
-
+        
+         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     IEnumerator playVideo()
