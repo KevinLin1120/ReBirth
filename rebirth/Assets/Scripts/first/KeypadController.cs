@@ -29,6 +29,7 @@ public class KeypadController : MonoBehaviour
         if (inputPasswordList.Count >= 4)
             return;
 
+        Debug.Log(selectedNum);
         inputPasswordList.Add(selectedNum);
 
         UpdateDisplay();
@@ -45,9 +46,9 @@ public class KeypadController : MonoBehaviour
             {
                 InCorrectPassword();
                 return;
-            }
+            }else correctPasswordGiven();
         }
-        correctPasswordGiven();
+        // correctPasswordGiven();
     }
 
 
@@ -86,7 +87,7 @@ public class KeypadController : MonoBehaviour
         codeDisplay.text = null;
         for (int i = 0; i < inputPasswordList.Count; i++)
         {
-            codeDisplay.text += inputPasswordList[i];
+            codeDisplay.text += inputPasswordList[i].ToString();
         }
     }
     public void DeleteEntry()
