@@ -9,6 +9,7 @@ public class KeypadController : MonoBehaviour
     public List<int> correctPassword = new List<int>();
     private List<int> inputPasswordList = new List<int>();
     [SerializeField] private Text codeDisplay;
+    [SerializeField] private InputField InputField;
     [SerializeField] private float resetTime = 2f;
     [SerializeField] private string SuccessText;
 
@@ -21,7 +22,7 @@ public class KeypadController : MonoBehaviour
     private bool hasUsedCorrectCode = false;
 
     public bool HasUsedCorrectCode { get { return hasUsedCorrectCode; } }
-
+    //
     public GameObject blood;
 
     public void UserNumberEntry(int selectedNum)
@@ -46,7 +47,9 @@ public class KeypadController : MonoBehaviour
             {
                 InCorrectPassword();
                 return;
-            }else correctPasswordGiven();
+            }else {
+                correctPasswordGiven();
+            };
         }
         // correctPasswordGiven();
     }
@@ -59,15 +62,15 @@ public class KeypadController : MonoBehaviour
             onCorrectPassword.Invoke();
             codeDisplay.text = SuccessText;
             StartCoroutine(ResetKeyCode());
-            blood.SetActive(true);
         }
         else if (!allowMultipleActivations && !hasUsedCorrectCode)
         {
             onCorrectPassword.Invoke();
             hasUsedCorrectCode = true;
             codeDisplay.text = SuccessText;
-            blood.SetActive(true);
         }
+        //要丟到ＧＭ
+        blood.SetActive(true);
     }
     private void InCorrectPassword()
     {
@@ -75,7 +78,11 @@ public class KeypadController : MonoBehaviour
         StartCoroutine(ResetKeyCode());
     }
 
-
+    public void clear()
+    {
+        codeDisplay.text = " ";
+        //InputField.text = " ";
+    }
     IEnumerator ResetKeyCode()
     {
         yield return new WaitForSeconds(resetTime);
