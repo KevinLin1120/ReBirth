@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.Video;
  using UnityEngine.SceneManagement;
 
@@ -35,6 +36,10 @@ public class Gamemanager : MonoBehaviour
         StartCoroutine(playVideo());
     }
 
+    public void test()
+    {
+        Debug.Log("teset");
+    }
     // Update is called once per frame
     void Update()
     {
@@ -84,10 +89,10 @@ public class Gamemanager : MonoBehaviour
 
     IEnumerator playVideo()
     {
-        // blackPanel.SetActive(true);
+        blackPanel.SetActive(true);
         // Delay 3s
-        yield return new WaitForSeconds(3);
-        // blackPanel.SetActive(false);
+        yield return new WaitForSeconds(1.5f);
+        blackPanel.SetActive(false);
         video.SetActive(true);
         yield return new WaitForSeconds(3);
         skipBtn.SetActive(true);

@@ -26,38 +26,38 @@ public class cardOpen : MonoBehaviour
         
     }
     void Update(){
-        if(OVRInput.Get(OVRInput.Button.One)){
-            Panel1.SetActive(true);
-        }
-        if(OVRInput.Get(OVRInput.Button.Two)){
-            Panel2.SetActive(true);
-        }
-        if(OVRInput.Get(OVRInput.Button.Three)){
-            Panel3.SetActive(true);
-        }
-        if(OVRInput.Get(OVRInput.Button.Four)){
-            Panel4.SetActive(true);
-        }
+        //if(OVRInput.Get(OVRInput.Button.One)){
+        //    Panel1.SetActive(true);
+        //}
+        //if(OVRInput.Get(OVRInput.Button.Two)){
+        //    Panel2.SetActive(true);
+        //}
+        //if(OVRInput.Get(OVRInput.Button.Three)){
+        //    Panel3.SetActive(true);
+        //}
+        //if(OVRInput.Get(OVRInput.Button.Four)){
+        //    Panel4.SetActive(true);
+        //}
     }
 
-    private void onTriggerEnter(Collider other){
-        if(OVRInput.Get(OVRInput.Button.One)){
-            Panel1.SetActive(true);
-        }
-        press.Invoke();
-        isPressed = true;
-            Debug.Log("Click!");
-        if(!isPressed){
-            presser = other.gameObject;
-            press.Invoke();
-            isPressed = true;
-        }
-        if(isPressed)
-            Panel1.SetActive(true);
-        // if(isPressed){
-        //     Panel.SetActive(true);
-        // }
-    }
+    //private void onTriggerEnter(Collider other){
+    //    if(OVRInput.Get(OVRInput.Button.One)){
+    //        Panel1.SetActive(true);
+    //    }
+    //    press.Invoke();
+    //    isPressed = true;
+    //        Debug.Log("Click!");
+    //    if(!isPressed){
+    //        presser = other.gameObject;
+    //        press.Invoke();
+    //        isPressed = true;
+    //    }
+    //    if(isPressed)
+    //        Panel1.SetActive(true);
+    //    // if(isPressed){
+    //    //     Panel.SetActive(true);
+    //    // }
+    //}
 
     public void cardShow(){
         if(isPressed)

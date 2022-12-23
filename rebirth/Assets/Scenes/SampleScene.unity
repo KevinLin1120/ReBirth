@@ -180,7 +180,7 @@ RectTransform:
   m_GameObject: {fileID: 46550758}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.35, y: 0.35, z: 11.577934}
+  m_LocalScale: {x: 1, y: 1, z: 11.577934}
   m_Children: []
   m_Father: {fileID: 1191936087}
   m_RootOrder: 0
@@ -2019,7 +2019,7 @@ RectTransform:
   m_GameObject: {fileID: 189144780}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.30764, y: 0.30764, z: 0.30764}
+  m_LocalScale: {x: 1, y: 1, z: 0.30764}
   m_Children:
   - {fileID: 1756791881}
   m_Father: {fileID: 163429339}
@@ -2277,7 +2277,7 @@ RectTransform:
   m_GameObject: {fileID: 238238025}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.30764, y: 0.30764, z: 0.30764}
+  m_LocalScale: {x: 1, y: 1, z: 0.30764}
   m_Children:
   - {fileID: 327395995}
   m_Father: {fileID: 163429339}
@@ -5726,7 +5726,7 @@ RectTransform:
   m_GameObject: {fileID: 916325599}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.30764, y: 0.30764, z: 0.30764}
+  m_LocalScale: {x: 1, y: 1, z: 0.30764}
   m_Children:
   - {fileID: 1408454974}
   m_Father: {fileID: 163429339}
@@ -6473,7 +6473,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1035760906
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8067,7 +8067,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1345315537}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7aaf960227867044282d921171d2d7ac, type: 3}
   m_Name: 
@@ -8124,7 +8124,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1345315537}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
   m_Name: 
@@ -8167,8 +8167,8 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 1
-  m_Camera: {fileID: 80903027}
-  m_PlaneDistance: 2
+  m_Camera: {fileID: 963194227}
+  m_PlaneDistance: 1
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
@@ -9946,7 +9946,7 @@ RectTransform:
   m_GameObject: {fileID: 1623098209}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.30764, y: 0.30764, z: 0.30764}
+  m_LocalScale: {x: 1, y: 1, z: 0.30764}
   m_Children:
   - {fileID: 1347963569}
   m_Father: {fileID: 163429339}
@@ -10032,11 +10032,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 25
-    m_FontStyle: 0
+    m_FontSize: 50
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 2
-    m_MaxSize: 40
+    m_MaxSize: 50
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -10348,8 +10348,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 183.2, y: -151.5}
-  m_SizeDelta: {x: 160, y: 49}
+  m_AnchoredPosition: {x: 599, y: -401}
+  m_SizeDelta: {x: 380, y: 105}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1678461985
 MonoBehaviour:
@@ -10407,7 +10407,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1883894976}
+      - m_Target: {fileID: 522089460}
         m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
         m_MethodName: set_enabled
         m_Mode: 6
@@ -10423,6 +10423,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1224925346}
+        m_TargetAssemblyTypeName: Gamemanager, Assembly-CSharp
+        m_MethodName: test
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
