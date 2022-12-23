@@ -11,9 +11,22 @@ public class cardOpen : MonoBehaviour
     //         Panel.SetActive(true);
     //     }
     // }
-
-    private void OnMouseUpAsButton() {
-        Debug.Log("OnMouseUpAsButton");
+    private void Start() {
+        //VR
+        if(OVRInput.GetDown(OVRInput.RawButton.RShoulder)){
             Panel.SetActive(true);
+        }
+    }
+
+    //mouse click
+    private void OnMouseUpAsButton() {
+        // Debug.Log("OnMouseUpAsButton");
+        //     Panel.SetActive(true);
+    }
+
+    public void VRClick(){
+        if(OVRInput.GetDown(OVRInput.RawButton.RShoulder)){
+            Panel.SetActive(true);
+        }
     }
 }
