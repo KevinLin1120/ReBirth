@@ -8,9 +8,9 @@ public class cardOpen : MonoBehaviour
 {
     // public GameObject button;
     public GameObject Panel1;
-    public GameObject Panel2;
-    public GameObject Panel3;
-    public GameObject Panel4;
+    //public GameObject Panel2;
+    //public GameObject Panel3;
+    //public GameObject Panel4;
 
     public UnityEvent press;
     GameObject presser;
@@ -66,6 +66,6 @@ public class cardOpen : MonoBehaviour
 
     private void OnMouseUpAsButton() {
         Debug.Log("OnMouseUpAsButton");
-            Panel1.SetActive(true);
+        Panel1.SetActive(true);
     }
 }
