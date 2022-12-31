@@ -36,11 +36,12 @@ public class niddleClick : MonoBehaviour
             if (i == 8)
             {
                 Debug.Log("done");
+                niddleCanvas.SetActive(false);
                 niddle.SetActive(false);
                 //blood anim
                 blood2.SetActive(true);
                 //GM.isRight = true;
-                niddleCanvas.SetActive(false);
+                
             }
             // Debug.Log(i);
         }
@@ -53,14 +54,14 @@ public class niddleClick : MonoBehaviour
             Debug.Log("wrong");
             i++;
             Debug.Log(i);
-            if (i == 9)
+            if (i == 8)
             {
                 Debug.Log("done");
                 niddle.SetActive(false);
                 // GM.isRight = false;
-                niddleCanvas.SetActive(false);
+                // niddleCanvas.SetActive(false);
                 MirrorFlipCamera(Camera.main);
-                niddleCanvas2.SetActive(true);
+                // niddleCanvas2.SetActive(true);
             }
         }
         // i++;
