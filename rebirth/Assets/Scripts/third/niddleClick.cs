@@ -29,7 +29,7 @@ public class niddleClick : MonoBehaviour
         {
             //關閉浮起動畫
             anim.enabled = false;
-            niddle.transform.Translate(new Vector3(0, 0.2f, 0));
+            niddle.transform.position = niddle.transform.position += new Vector3(0, 0.2f, 0);
             Debug.Log("right");
             i++;
             Debug.Log(i);
