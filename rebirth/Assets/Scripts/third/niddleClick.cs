@@ -9,6 +9,10 @@ public class niddleClick : MonoBehaviour
     public Animator anim;
     public GameObject blood2;
     public gamemanager GM;
+    public AudioClip horrible;
+    public AudioSource horribleAudio;
+    public AudioClip click;
+    public AudioSource clickAudio;
 
     public int i;
     // Start is called before the first frame update
@@ -25,6 +29,7 @@ public class niddleClick : MonoBehaviour
     private void OnMouseDown()
     {
         Debug.Log("OnMouseDown");
+        clickAudio.PlayOneShot(click);
         if (niddle.tag == "right")
         {
             //關閉浮起動畫
@@ -41,7 +46,7 @@ public class niddleClick : MonoBehaviour
                 //blood anim
                 blood2.SetActive(true);
                 //GM.isRight = true;
-                
+
             }
             // Debug.Log(i);
         }
@@ -60,8 +65,10 @@ public class niddleClick : MonoBehaviour
                 niddle.SetActive(false);
                 // GM.isRight = false;
                 // niddleCanvas.SetActive(false);
+                horribleAudio.PlayOneShot(horrible);
                 MirrorFlipCamera(Camera.main);
                 // niddleCanvas2.SetActive(true);
+
             }
         }
         // i++;
