@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class niddleClick : MonoBehaviour
 {
-    public GameObject niddle, niddle2, niddle3;
-    public GameObject niddleCanvas, niddleCanvas2, niddleCanvas3;
+    public GameObject niddle1;
+    // public GameObject niddle2;
+    public GameObject niddleCanvas, niddleCanvas2;
     public Animator anim;
-    public GameObject blood2;
+    // public GameObject blood2;
     public gamemanager GM;
     public AudioClip horrible;
     public AudioSource horribleAudio;
@@ -19,22 +20,24 @@ public class niddleClick : MonoBehaviour
     void Start()
     {
         anim = gameObject.GetComponent<Animator>();
+
+
     }
 
-    // // Update is called once per frame
-    // void Update()
-    // {
+    // Update is called once per frame
+    void Update()
+    {
 
-    // }
+    }
     private void OnMouseDown()
     {
         Debug.Log("OnMouseDown");
         clickAudio.PlayOneShot(click);
-        if (niddle.tag == "right")
+        if (niddle1.tag == "right")
         {
             //關閉浮起動畫
             anim.enabled = false;
-            niddle.transform.position = niddle.transform.position += new Vector3(0, 0.2f, 0);
+            niddle1.transform.position = niddle1.transform.position += new Vector3(0, 0.2f, 0);
             Debug.Log("right");
             i++;
             Debug.Log(i);
@@ -42,27 +45,27 @@ public class niddleClick : MonoBehaviour
             {
                 Debug.Log("done");
                 niddleCanvas.SetActive(false);
-                niddle.SetActive(false);
+                niddle1.SetActive(false);
+                niddleCanvas2.SetActive(true);
                 //blood anim
-                blood2.SetActive(true);
                 //GM.isRight = true;
 
             }
             // Debug.Log(i);
         }
-        else if (niddle.tag == "wrong")
+        else if (niddle1.tag == "wrong")
         {
             // niddle.SetActive(false);     
             // anim.SetActive(false);
             anim.enabled = false;
-            niddle.transform.position = niddle.transform.position += new Vector3(0, 0.2f, 0);
+            niddle1.transform.position = niddle1.transform.position += new Vector3(0, 0.2f, 0);
             Debug.Log("wrong");
             i++;
             Debug.Log(i);
             if (i == 8)
             {
                 Debug.Log("done");
-                niddle.SetActive(false);
+                niddle1.SetActive(false);
                 // GM.isRight = false;
                 // niddleCanvas.SetActive(false);
                 horribleAudio.PlayOneShot(horrible);
@@ -71,10 +74,52 @@ public class niddleClick : MonoBehaviour
 
             }
         }
-        // i++;
-        // Debug.Log(i);
-        // if(i == 8){
-        //     Debug.Log("done");
+        
+        // if(niddleCanvas2.activeInHierarchy == true){
+        //     Debug.Log("hi");
+        //     Debug.Log("OnMouseDown");
+        //     clickAudio.PlayOneShot(click);
+        //     if (niddle2.tag == "right")
+        //     {
+        //         //關閉浮起動畫
+        //         anim.enabled = false;
+        //         niddle2.transform.position = niddle2.transform.position += new Vector3(0, 0.2f, 0);
+        //         Debug.Log("right");
+        //         i++;
+        //         Debug.Log(i);
+        //         if (i == 8)
+        //         {
+        //             Debug.Log("done");
+        //             niddleCanvas.SetActive(false);
+        //             niddle2.SetActive(false);
+        //             niddleCanvas2.SetActive(false);
+        //             //blood anim
+        //             // GM.isRight = true;
+        //             blood2.SetActive(true);
+
+        //         }
+        //         // Debug.Log(i);
+        //     }
+        //     else if (niddle2.tag == "wrong")
+        //     {
+        //         // niddle.SetActive(false);     
+        //         // anim.SetActive(false);
+        //         anim.enabled = false;
+        //         niddle2.transform.position = niddle2.transform.position += new Vector3(0, 0.2f, 0);
+        //         Debug.Log("wrong");
+        //         i++;
+        //         Debug.Log(i);
+        //         if (i == 8)
+        //         {
+        //             Debug.Log("done");
+        //             niddle2.SetActive(false);
+        //             // GM.isRight = false;
+        //             // niddleCanvas.SetActive(false);
+        //             horribleAudio.PlayOneShot(horrible);
+        //             MirrorFlipCamera(Camera.main);
+        //             // niddleCanvas2.SetActive(true);
+        //         }
+        //     }
         // }
     }
 
