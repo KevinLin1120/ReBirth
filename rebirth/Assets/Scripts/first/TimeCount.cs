@@ -12,7 +12,7 @@ public class TimeCount : MonoBehaviour
 
     void Start()
     {
-        textDisplay.GetComponent<Text>().text =  secondLeft.ToString();
+        textDisplay.GetComponent<Text>().text = "00:" + secondLeft;
     }
     void Update()
     {
@@ -29,11 +29,11 @@ public class TimeCount : MonoBehaviour
         secondLeft -= 1;
         if (secondLeft < 10)
         {
-            textDisplay.GetComponent<Text>().text = secondLeft.ToString();
+            textDisplay.GetComponent<Text>().text = "00:0" + secondLeft;
         }
         else
         {
-            textDisplay.GetComponent<Text>().text = secondLeft.ToString();
+            textDisplay.GetComponent<Text>().text = "00:" + secondLeft;
         }
         timeGo = false;
 
