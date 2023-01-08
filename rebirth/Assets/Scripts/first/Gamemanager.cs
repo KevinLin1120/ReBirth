@@ -47,6 +47,7 @@ public class Gamemanager : MonoBehaviour
         {
             StartCoroutine(death());
             isDeath = !isDeath;
+        }
 
             //IEnumerator death(){
             //    // Start the flash
@@ -58,7 +59,6 @@ public class Gamemanager : MonoBehaviour
             //    }
             //    // Stop the flash
             //    screenFlash.SetActive(false);
-
             //    // Start blinking
             //    blink.blink_eye(true);
             //    // First time
@@ -87,7 +87,7 @@ public class Gamemanager : MonoBehaviour
             //blink.blink_eye(6);
             // Reborn
             //blink.openEye();
-        }
+        
         if (isWin)
         {
             StartCoroutine(win());

@@ -37,6 +37,9 @@ public class niddleClick2 : MonoBehaviour
         clickAudio.PlayOneShot(click);
         if (niddle2.tag == "right")
         {
+            // Add 5s
+            GM.rightNiddle();
+
             //關閉浮起動畫
             anim.enabled = false;
             niddle2.transform.position = niddle2.transform.position += new Vector3(0, 0.2f, 0);
@@ -51,7 +54,7 @@ public class niddleClick2 : MonoBehaviour
                 niddleCanvas2.SetActive(false);
                 //blood anim
                 blood2.SetActive(true);
-                GM.isRight = true;
+                GM.isWin = true;
 
             }
             // Debug.Log(i);
@@ -69,7 +72,7 @@ public class niddleClick2 : MonoBehaviour
             {
                 Debug.Log("done");
                 niddle2.SetActive(false);
-                // GM.isRight = false;
+                // GM.isWin = false;
                 // niddleCanvas.SetActive(false);
                 horribleAudio.PlayOneShot(horrible);
                 MirrorFlipCamera(Camera.main);

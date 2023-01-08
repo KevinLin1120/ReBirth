@@ -35,6 +35,9 @@ public class niddleClick : MonoBehaviour
         clickAudio.PlayOneShot(click);
         if (niddle1.tag == "right")
         {
+            // Add 5s
+            GM.rightNiddle();
+
             //關閉浮起動畫
             anim.enabled = false;
             niddle1.transform.position = niddle1.transform.position += new Vector3(0, 0.2f, 0);
