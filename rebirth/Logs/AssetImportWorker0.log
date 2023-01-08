@@ -22,107 +22,107 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60205
+61026
 Successfully changed project path to: /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth
 /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 55.88 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 54.46 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.29f1 (2ff179115da0)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.29f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets
 GfxDevice: creating device client; threaded=0
-2023-01-08 18:11:36.050 Unity[24402:1386679] (null) preferred device: Apple M1 (high power)
-2023-01-08 18:11:36.050 Unity[24402:1386679] Metal devices available: 1
-2023-01-08 18:11:36.050 Unity[24402:1386679] 0: Apple M1 (high power)
-2023-01-08 18:11:36.050 Unity[24402:1386679] Using device Apple M1 (high power)
+2023-01-08 21:07:11.875 Unity[26212:1489211] (null) preferred device: Apple M1 (high power)
+2023-01-08 21:07:11.875 Unity[26212:1489211] Metal devices available: 1
+2023-01-08 21:07:11.875 Unity[26212:1489211] 0: Apple M1 (high power)
+2023-01-08 21:07:11.875 Unity[26212:1489211] Using device Apple M1 (high power)
 Initializing Metal device caps: Apple M1
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.29f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.29f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.29f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56402
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56212
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.29f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.29f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.29f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003135 seconds.
+Registered in 0.001877 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 45.75 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 53.07 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.323 seconds
+- Completed reload, in  1.391 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1323ms)
-		BeginReloadAssembly (110ms)
+	ReloadAssembly (1392ms)
+		BeginReloadAssembly (113ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (1099ms)
-			LoadAssemblies (107ms)
+		EndReloadAssembly (1160ms)
+			LoadAssemblies (111ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (177ms)
+			SetupTypeCache (182ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (571ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (613ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
+				InitializePlatformSupportModulesInManaged (20ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (46ms)
-				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (312ms)
-				ProcessInitializeOnLoadMethodAttributes (114ms)
+				RefreshPlugins (53ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (334ms)
+				ProcessInitializeOnLoadMethodAttributes (116ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003289 seconds.
+Registered in 0.003839 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.285 seconds
+- Completed reload, in  2.329 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2287ms)
-		BeginReloadAssembly (251ms)
+	ReloadAssembly (2332ms)
+		BeginReloadAssembly (255ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (35ms)
+			DisableScriptedObjects (33ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (1949ms)
-			LoadAssemblies (208ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (1990ms)
+			LoadAssemblies (215ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (337ms)
+			SetupTypeCache (328ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (1088ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (1124ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
+				InitializePlatformSupportModulesInManaged (19ms)
 				SetLoadedEditorAssemblies (2ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (218ms)
-				ProcessInitializeOnLoadAttributes (817ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
+				BeforeProcessingInitializeOnLoad (225ms)
+				ProcessInitializeOnLoadAttributes (843ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (31ms)
+			AwakeInstancesAfterBackupRestoration (32ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.010765 seconds.
+Validating Project structure ... 0.010349 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.021950 seconds.
+Upgrading shader files ...0.021706 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -135,19 +135,19 @@ Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.29f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
 Initializing Unity extensions:
-2023-01-08 18:11:40.993 Unity[24402:1386679] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f8a614e28c0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-2023-01-08 18:11:40.997 Unity[24402:1386679] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f8a60194c70 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2023-01-08 21:07:16.896 Unity[26212:1489211] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f87994b0180 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2023-01-08 21:07:16.900 Unity[26212:1489211] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f876930b240 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.68 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2295 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2297 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 83.4 MB.
 System memory in use after: 82.8 MB.
 
-Unloading 229 unused Assets to reduce memory usage. Loaded Objects now: 2767.
-Total: 3.333125 ms (FindLiveObjects: 0.164208 ms CreateObjectMapping: 0.066417 ms MarkObjects: 2.564375 ms  DeleteObjects: 0.537000 ms)
+Unloading 231 unused Assets to reduce memory usage. Loaded Objects now: 2769.
+Total: 3.832458 ms (FindLiveObjects: 0.234459 ms CreateObjectMapping: 0.054083 ms MarkObjects: 2.991833 ms  DeleteObjects: 0.550791 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -161,236 +161,22 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/New Material 3.mat
-  artifactKey: Guid(24a5cb882ff0f6342bfefb92bc59197b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Material 3.mat using Guid(24a5cb882ff0f6342bfefb92bc59197b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f76d9d7b3e8837dc0dcd7db554a1b6bc') in 0.287227 seconds 
-  Import took 0.293629 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.245963 seconds.
-  path: Assets/Scenes/thirdScene.unity
-  artifactKey: Guid(7ee6de631290e48acb3f54fc53194ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/thirdScene.unity using Guid(7ee6de631290e48acb3f54fc53194ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '436a033853fcd0c39e6e0d71b402bd63') in 0.001601 seconds 
-  Import took 0.005477 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.434789 seconds.
-  path: Assets/Scripts/first/MouseLookMove.cs
-  artifactKey: Guid(23c1f69272a944cd38315393c0d06683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/first/MouseLookMove.cs using Guid(23c1f69272a944cd38315393c0d06683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ef49ce66117a5c5c6aef8b2959a87a') in 0.090933 seconds 
-  Import took 0.097546 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.975553 seconds.
-  path: Assets/Scripts/third
-  artifactKey: Guid(39bedddd262efec40b170581822feed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/third using Guid(39bedddd262efec40b170581822feed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa68c73521cbada85993f9e18482ecca') in 0.001082 seconds 
-  Import took 0.005460 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.521265 seconds.
-  path: Assets/Scripts/first/blink.prefab
-  artifactKey: Guid(ba49033e92d607241a8fe90536f66858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/first/blink.prefab using Guid(ba49033e92d607241a8fe90536f66858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a1d245fb5710482214bcec9049edb8f') in 0.107573 seconds 
-  Import took 0.114961 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.901839 seconds.
-  path: Assets/Scripts/first/Gamemanager.cs
-  artifactKey: Guid(e9135550df71940298c740f10e53a3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/first/Gamemanager.cs using Guid(e9135550df71940298c740f10e53a3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb671e33ed39c0606f0dd5b4d36d82bf') in 0.001513 seconds 
-  Import took 0.005424 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 72.759416 seconds.
-  path: Assets/Scripts/third/MouseLookMove.cs
-  artifactKey: Guid(d7c82d449ca204f7496d445e76abeb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/third/MouseLookMove.cs using Guid(d7c82d449ca204f7496d445e76abeb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df3cc18a578422d59526ed4d6af8e632') in 0.002663 seconds 
-  Import took 0.006863 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.381923 seconds.
-  path: Assets/Scripts/third/MouseLookMove01.cs
-  artifactKey: Guid(d7c82d449ca204f7496d445e76abeb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/third/MouseLookMove01.cs using Guid(d7c82d449ca204f7496d445e76abeb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a9a82b359e366046b645b73d03ce0f4') in 0.001222 seconds 
-  Import took 0.004785 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.423286 seconds.
-  path: Assets/Scripts/third/MouseLookMove03.cs
-  artifactKey: Guid(d7c82d449ca204f7496d445e76abeb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/third/MouseLookMove03.cs using Guid(d7c82d449ca204f7496d445e76abeb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bedf74a6f55a717fa99e7dc9752052f4') in 0.002478 seconds 
-  Import took 0.006247 seconds .
+  path: Assets/Scripts/third/gamemanager.cs
+  artifactKey: Guid(8a39329bdee0c8c40917ae1a55839904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/third/gamemanager.cs using Guid(8a39329bdee0c8c40917ae1a55839904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da5c6aeaf7d6938f9c6ec2c3a3e0f018') in 0.124640 seconds 
+  Import took 0.131576 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002789 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2023-01-08 18:14:21.010 Unity[24402:1386679] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f8a602620f0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-Exception thrown while invoking [DidReloadScripts] method 'Facebook.WitAi.Windows.WitConfigurationEditor:OnScriptsReloaded ()' : NullReferenceException: Object reference not set to an instance of an object
-  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.ReloadConfigurationData () [0x00029] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:81 
-  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.get_WitConfigs () [0x00007] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:36 
-  at Facebook.WitAi.Windows.WitConfigurationEditor.OnScriptsReloaded () [0x00000] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationEditor.cs:443 
-
-(Filename: Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs Line: 81)
-
-- Completed reload, in  2.434 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2435ms)
-		BeginReloadAssembly (219ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (31ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (68ms)
-		EndReloadAssembly (2129ms)
-			LoadAssemblies (196ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (336ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (1213ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (272ms)
-				ProcessInitializeOnLoadAttributes (888ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (34ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2270 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 318.7 MB.
-System memory in use after: 318.9 MB.
-
-Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2812.
-Total: 2.756667 ms (FindLiveObjects: 0.179458 ms CreateObjectMapping: 0.058250 ms MarkObjects: 2.466917 ms  DeleteObjects: 0.050500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 23.105651 seconds.
-  path: Assets/Scripts/third/MouseLookMove03.cs
-  artifactKey: Guid(d7c82d449ca204f7496d445e76abeb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/third/MouseLookMove03.cs using Guid(d7c82d449ca204f7496d445e76abeb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92dd83cd5c6bc79065a1def69bb3f1e3') in 0.006298 seconds 
-  Import took 0.009996 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005113 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2023-01-08 18:18:50.563 Unity[24402:1386679] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f8a61545090 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-Exception thrown while invoking [DidReloadScripts] method 'Facebook.WitAi.Windows.WitConfigurationEditor:OnScriptsReloaded ()' : NullReferenceException: Object reference not set to an instance of an object
-  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.ReloadConfigurationData () [0x00029] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:81 
-  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.get_WitConfigs () [0x00007] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:36 
-  at Facebook.WitAi.Windows.WitConfigurationEditor.OnScriptsReloaded () [0x00000] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationEditor.cs:443 
-
-(Filename: Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs Line: 81)
-
-- Completed reload, in  2.461 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2463ms)
-		BeginReloadAssembly (284ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (45ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (79ms)
-		EndReloadAssembly (2088ms)
-			LoadAssemblies (247ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (335ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (1155ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (271ms)
-				ProcessInitializeOnLoadAttributes (831ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (33ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2270 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 320.3 MB.
-System memory in use after: 320.6 MB.
-
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2815.
-Total: 2.517625 ms (FindLiveObjects: 0.124584 ms CreateObjectMapping: 0.049250 ms MarkObjects: 2.304875 ms  DeleteObjects: 0.037833 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 2879.209339 seconds.
-  path: Assets/Scripts/third/TimeCount.cs
-  artifactKey: Guid(11efdb29d86f449fb82c49b50fa586e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/third/TimeCount.cs using Guid(11efdb29d86f449fb82c49b50fa586e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ceb84baf2181799502a86c0ce8240b1') in 0.035277 seconds 
-  Import took 0.049425 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002854 seconds.
+Registered in 0.001459 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.62 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-2023-01-08 19:03:38.016 Unity[24402:1386679] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f8a604fed50 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2023-01-08 21:07:32.851 Unity[26212:1489211] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f8769627420 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 Mono: successfully reloaded assembly
 Exception thrown while invoking [DidReloadScripts] method 'Facebook.WitAi.Windows.WitConfigurationEditor:OnScriptsReloaded ()' : NullReferenceException: Object reference not set to an instance of an object
   at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.ReloadConfigurationData () [0x00029] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:81 
@@ -399,691 +185,19 @@ Exception thrown while invoking [DidReloadScripts] method 'Facebook.WitAi.Window
 
 (Filename: Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs Line: 81)
 
-- Completed reload, in  2.406 seconds
+- Completed reload, in  2.388 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2408ms)
-		BeginReloadAssembly (244ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (36ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (86ms)
-		EndReloadAssembly (2075ms)
-			LoadAssemblies (205ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (340ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (1141ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (270ms)
-				ProcessInitializeOnLoadAttributes (818ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (33ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2271 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 322.0 MB.
-System memory in use after: 322.2 MB.
-
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2819.
-Total: 2.785667 ms (FindLiveObjects: 0.176959 ms CreateObjectMapping: 0.073875 ms MarkObjects: 2.484000 ms  DeleteObjects: 0.049250 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 77.754408 seconds.
-  path: Assets/Scripts/third/TimeCount.cs
-  artifactKey: Guid(11efdb29d86f449fb82c49b50fa586e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/third/TimeCount.cs using Guid(11efdb29d86f449fb82c49b50fa586e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d98458c4626996c48ec86e23cdc9f21') in 0.006059 seconds 
-  Import took 0.009808 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.426294 seconds.
-  path: Assets/Scripts/third/TimeCount03.cs
-  artifactKey: Guid(11efdb29d86f449fb82c49b50fa586e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/third/TimeCount03.cs using Guid(11efdb29d86f449fb82c49b50fa586e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f6e728cda87ae0e1f408347db599ac1') in 0.001273 seconds 
-  Import took 0.004686 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002752 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2023-01-08 19:03:50.957 Unity[24402:1386679] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f8a98a793d0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-Exception thrown while invoking [DidReloadScripts] method 'Facebook.WitAi.Windows.WitConfigurationEditor:OnScriptsReloaded ()' : NullReferenceException: Object reference not set to an instance of an object
-  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.ReloadConfigurationData () [0x00029] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:81 
-  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.get_WitConfigs () [0x00007] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:36 
-  at Facebook.WitAi.Windows.WitConfigurationEditor.OnScriptsReloaded () [0x00000] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationEditor.cs:443 
-
-(Filename: Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs Line: 81)
-
-- Completed reload, in  2.395 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2396ms)
-		BeginReloadAssembly (197ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (31ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (56ms)
-		EndReloadAssembly (2112ms)
-			LoadAssemblies (192ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (325ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (1148ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (279ms)
-				ProcessInitializeOnLoadAttributes (819ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (39ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2271 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 323.6 MB.
-System memory in use after: 323.8 MB.
-
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2822.
-Total: 3.541958 ms (FindLiveObjects: 0.173833 ms CreateObjectMapping: 0.051792 ms MarkObjects: 3.263042 ms  DeleteObjects: 0.052125 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002990 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2023-01-08 19:06:11.739 Unity[24402:1386679] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f8a60515a90 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-Exception thrown while invoking [DidReloadScripts] method 'Facebook.WitAi.Windows.WitConfigurationEditor:OnScriptsReloaded ()' : NullReferenceException: Object reference not set to an instance of an object
-  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.ReloadConfigurationData () [0x00029] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:81 
-  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.get_WitConfigs () [0x00007] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:36 
-  at Facebook.WitAi.Windows.WitConfigurationEditor.OnScriptsReloaded () [0x00000] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationEditor.cs:443 
-
-(Filename: Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs Line: 81)
-
-- Completed reload, in  2.331 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2332ms)
-		BeginReloadAssembly (202ms)
+	ReloadAssembly (2389ms)
+		BeginReloadAssembly (205ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (33ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (59ms)
-		EndReloadAssembly (2043ms)
-			LoadAssemblies (192ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (2096ms)
+			LoadAssemblies (194ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (330ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (1127ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (270ms)
-				ProcessInitializeOnLoadAttributes (806ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (34ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2271 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 325.0 MB.
-System memory in use after: 325.3 MB.
-
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2825.
-Total: 2.610875 ms (FindLiveObjects: 0.149791 ms CreateObjectMapping: 0.053042 ms MarkObjects: 2.362792 ms  DeleteObjects: 0.039750 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 525.384113 seconds.
-  path: Assets/Tree.prefab
-  artifactKey: Guid(0f6bb5df18d92fa41b7106916f47844c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tree.prefab using Guid(0f6bb5df18d92fa41b7106916f47844c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff1455de46465e1a6425ef490d3c53f') in 0.856817 seconds 
-  Import took 0.862017 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.543280 seconds.
-  path: Assets/Assets/first/Models/money.fbx
-  artifactKey: Guid(518ef8c63a8308a4ea0d46adb7b884a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/first/Models/money.fbx using Guid(518ef8c63a8308a4ea0d46adb7b884a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '447d407485a28f7125e82cf6b1a2f9b5') in 0.133923 seconds 
-  Import took 0.140472 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/Assets/first/Models/firstsense.fbx
-  artifactKey: Guid(7c7a0e9696c86df4a8eeeddab49df532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/first/Models/firstsense.fbx using Guid(7c7a0e9696c86df4a8eeeddab49df532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '347e9e54ffa37615db929d31eef14857') in 0.094970 seconds 
-  Import took 0.099165 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000339 seconds.
-  path: Assets/Assets/first/Models/diary/dairy5.fbx
-  artifactKey: Guid(b2ea9d9ff101dd84fab62870441719a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/first/Models/diary/dairy5.fbx using Guid(b2ea9d9ff101dd84fab62870441719a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c17c7358e7bc81e40be153500950c698') in 0.021359 seconds 
-  Import took 0.025473 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Assets/sense/firstsense.fbx
-  artifactKey: Guid(99aed2b3c96b39e4cac8504ee2812422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/sense/firstsense.fbx using Guid(99aed2b3c96b39e4cac8504ee2812422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3ad2c1d56e045c0a06a78669605dd7d') in 0.076290 seconds 
-  Import took 0.080990 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Assets/first/Models/firstsense 1.fbx
-  artifactKey: Guid(953ebe5a8585c8048b7331f034e86628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/first/Models/firstsense 1.fbx using Guid(953ebe5a8585c8048b7331f034e86628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f090d802d507c32ca8c56eb27e73f7da') in 0.090283 seconds 
-  Import took 0.095161 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/Assets/first/Models/diary/dairy4.fbx
-  artifactKey: Guid(79e850e2dd86a6a479388c868b95bead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/first/Models/diary/dairy4.fbx using Guid(79e850e2dd86a6a479388c868b95bead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a66c189f9e9da8456059977eb97dc655') in 0.021590 seconds 
-  Import took 0.026730 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000420 seconds.
-  path: Assets/Assets/first/Models/diary/dairy8.fbx
-  artifactKey: Guid(0fbbdac5e923e8940ba46304856cfeba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/first/Models/diary/dairy8.fbx using Guid(0fbbdac5e923e8940ba46304856cfeba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b822047e6cefa544c13548744266e8e') in 0.024992 seconds 
-  Import took 0.030174 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/Assets/first/Models/mom 1.fbx
-  artifactKey: Guid(1be471802b850054aa5552c27c4035c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/first/Models/mom 1.fbx using Guid(1be471802b850054aa5552c27c4035c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4760e2dc1998196a49f570ff4421157f') in 0.024915 seconds 
-  Import took 0.029678 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000385 seconds.
-  path: Assets/Assets/first/Models/mom.fbx
-  artifactKey: Guid(e089901f751d74f40a2bc768c6faed79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/first/Models/mom.fbx using Guid(e089901f751d74f40a2bc768c6faed79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9424d46dc3e20bf13de9ed1dd9751c0b') in 0.027928 seconds 
-  Import took 0.032045 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/Assets/first/Models/diary/dairy6.fbx
-  artifactKey: Guid(90027c7d68c05244c809fda7f4478ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/first/Models/diary/dairy6.fbx using Guid(90027c7d68c05244c809fda7f4478ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53780d51d97e8d4b3dc6ff8d4cf5f2c6') in 0.020914 seconds 
-  Import took 0.024703 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/Assets/first/Models/diary/dairy7.fbx
-  artifactKey: Guid(6c5bdf3ca4ac3504d88274294b64c919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/first/Models/diary/dairy7.fbx using Guid(6c5bdf3ca4ac3504d88274294b64c919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daae913c2f7f17be22d2c1eea089382c') in 0.030262 seconds 
-  Import took 0.034048 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.592501 seconds.
-  path: Assets/Oculus/VR/Prefabs/OVRCameraRig.prefab
-  artifactKey: Guid(126d619cf4daa52469682f85c1378b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/VR/Prefabs/OVRCameraRig.prefab using Guid(126d619cf4daa52469682f85c1378b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaf67d36ed0131da9d7df70052fa0fd2') in 0.008951 seconds 
-  Import took 0.012392 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 111.553441 seconds.
-  path: Assets/digital-7 (mono).ttf
-  artifactKey: Guid(b2b29d25155a64148b3a001452dbc118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/digital-7 (mono).ttf using Guid(b2b29d25155a64148b3a001452dbc118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd21e33497858c08e63aa5d7160f68d57') in 1.285709 seconds 
-  Import took 1.300989 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.007544 seconds.
-  path: Assets/Resources
-  artifactKey: Guid(1ee09031ff39c28459f482a8a2e07d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources using Guid(1ee09031ff39c28459f482a8a2e07d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '869f9538d2e440ffe1d506c6710bd278') in 0.001686 seconds 
-  Import took 0.005755 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006423 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2023-01-08 19:31:27.652 Unity[24402:1386679] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f8a60366740 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-Exception thrown while invoking [DidReloadScripts] method 'Facebook.WitAi.Windows.WitConfigurationEditor:OnScriptsReloaded ()' : NullReferenceException: Object reference not set to an instance of an object
-  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.ReloadConfigurationData () [0x00029] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:81 
-  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.get_WitConfigs () [0x00007] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:36 
-  at Facebook.WitAi.Windows.WitConfigurationEditor.OnScriptsReloaded () [0x00000] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationEditor.cs:443 
-
-(Filename: Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs Line: 81)
-
-- Completed reload, in  2.427 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2428ms)
-		BeginReloadAssembly (284ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (31ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (103ms)
-		EndReloadAssembly (2057ms)
-			LoadAssemblies (247ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (333ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (1143ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (262ms)
-				ProcessInitializeOnLoadAttributes (829ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (32ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2271 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 485.1 MB.
-System memory in use after: 485.3 MB.
-
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2836.
-Total: 2.599958 ms (FindLiveObjects: 0.136167 ms CreateObjectMapping: 0.051625 ms MarkObjects: 2.373416 ms  DeleteObjects: 0.037333 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005205 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2023-01-08 19:37:55.223 Unity[24402:1386679] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f8a6109bf10 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-Exception thrown while invoking [DidReloadScripts] method 'Facebook.WitAi.Windows.WitConfigurationEditor:OnScriptsReloaded ()' : NullReferenceException: Object reference not set to an instance of an object
-  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.ReloadConfigurationData () [0x00029] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:81 
-  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.get_WitConfigs () [0x00007] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:36 
-  at Facebook.WitAi.Windows.WitConfigurationEditor.OnScriptsReloaded () [0x00000] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationEditor.cs:443 
-
-(Filename: Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs Line: 81)
-
-- Completed reload, in  2.381 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2382ms)
-		BeginReloadAssembly (236ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (34ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (64ms)
-		EndReloadAssembly (2061ms)
-			LoadAssemblies (238ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (319ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (1146ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (276ms)
-				ProcessInitializeOnLoadAttributes (818ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (34ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2271 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 486.6 MB.
-System memory in use after: 486.8 MB.
-
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2839.
-Total: 2.589959 ms (FindLiveObjects: 0.152584 ms CreateObjectMapping: 0.062375 ms MarkObjects: 2.327125 ms  DeleteObjects: 0.046833 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011337 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2023-01-08 19:43:14.730 Unity[24402:1386679] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f8a602c0b70 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-Exception thrown while invoking [DidReloadScripts] method 'Facebook.WitAi.Windows.WitConfigurationEditor:OnScriptsReloaded ()' : NullReferenceException: Object reference not set to an instance of an object
-  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.ReloadConfigurationData () [0x00029] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:81 
-  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.get_WitConfigs () [0x00007] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:36 
-  at Facebook.WitAi.Windows.WitConfigurationEditor.OnScriptsReloaded () [0x00000] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationEditor.cs:443 
-
-(Filename: Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs Line: 81)
-
-- Completed reload, in  2.372 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2373ms)
-		BeginReloadAssembly (245ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (36ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (66ms)
-		EndReloadAssembly (2039ms)
-			LoadAssemblies (238ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (325ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (1127ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (268ms)
-				ProcessInitializeOnLoadAttributes (808ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (33ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2271 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 488.1 MB.
-System memory in use after: 488.3 MB.
-
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2842.
-Total: 2.553542 ms (FindLiveObjects: 0.134292 ms CreateObjectMapping: 0.049500 ms MarkObjects: 2.324291 ms  DeleteObjects: 0.044333 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004467 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2023-01-08 20:03:45.536 Unity[24402:1386679] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f8a614a13b0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-Exception thrown while invoking [DidReloadScripts] method 'Facebook.WitAi.Windows.WitConfigurationEditor:OnScriptsReloaded ()' : NullReferenceException: Object reference not set to an instance of an object
-  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.ReloadConfigurationData () [0x00029] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:81 
-  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.get_WitConfigs () [0x00007] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:36 
-  at Facebook.WitAi.Windows.WitConfigurationEditor.OnScriptsReloaded () [0x00000] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationEditor.cs:443 
-
-(Filename: Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs Line: 81)
-
-- Completed reload, in  2.401 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2403ms)
-		BeginReloadAssembly (285ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (35ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (68ms)
-		EndReloadAssembly (2029ms)
-			LoadAssemblies (276ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (319ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (1133ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (262ms)
-				ProcessInitializeOnLoadAttributes (819ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (34ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2271 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 489.6 MB.
-System memory in use after: 489.8 MB.
-
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2845.
-Total: 2.817458 ms (FindLiveObjects: 0.138792 ms CreateObjectMapping: 0.051833 ms MarkObjects: 2.587917 ms  DeleteObjects: 0.037584 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006562 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2023-01-08 20:05:22.287 Unity[24402:1386679] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f8a615ba5f0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-Exception thrown while invoking [DidReloadScripts] method 'Facebook.WitAi.Windows.WitConfigurationEditor:OnScriptsReloaded ()' : NullReferenceException: Object reference not set to an instance of an object
-  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.ReloadConfigurationData () [0x00029] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:81 
-  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.get_WitConfigs () [0x00007] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:36 
-  at Facebook.WitAi.Windows.WitConfigurationEditor.OnScriptsReloaded () [0x00000] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationEditor.cs:443 
-
-(Filename: Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs Line: 81)
-
-- Completed reload, in  2.408 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2410ms)
-		BeginReloadAssembly (249ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (35ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (66ms)
-		EndReloadAssembly (2072ms)
-			LoadAssemblies (249ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (328ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (1138ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (270ms)
-				ProcessInitializeOnLoadAttributes (813ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (33ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2271 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 491.0 MB.
-System memory in use after: 491.2 MB.
-
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2848.
-Total: 2.590041 ms (FindLiveObjects: 0.149541 ms CreateObjectMapping: 0.058542 ms MarkObjects: 2.339417 ms  DeleteObjects: 0.041416 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001701 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2023-01-08 20:07:24.251 Unity[24402:1386679] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f8a60314e50 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-Exception thrown while invoking [DidReloadScripts] method 'Facebook.WitAi.Windows.WitConfigurationEditor:OnScriptsReloaded ()' : NullReferenceException: Object reference not set to an instance of an object
-  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.ReloadConfigurationData () [0x00029] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:81 
-  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.get_WitConfigs () [0x00007] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:36 
-  at Facebook.WitAi.Windows.WitConfigurationEditor.OnScriptsReloaded () [0x00000] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationEditor.cs:443 
-
-(Filename: Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs Line: 81)
-
-- Completed reload, in  2.400 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2401ms)
-		BeginReloadAssembly (216ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (35ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (64ms)
-		EndReloadAssembly (2097ms)
-			LoadAssemblies (204ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (334ms)
+			SetupTypeCache (331ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (44ms)
 			SetupLoadedEditorAssemblies (1168ms)
@@ -1091,224 +205,23 @@ Domain Reload Profiling:
 				InitializePlatformSupportModulesInManaged (19ms)
 				SetLoadedEditorAssemblies (2ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (271ms)
-				ProcessInitializeOnLoadAttributes (845ms)
+				BeforeProcessingInitializeOnLoad (266ms)
+				ProcessInitializeOnLoadAttributes (851ms)
 				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (34ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2271 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 492.6 MB.
-System memory in use after: 492.8 MB.
-
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2851.
-Total: 2.788125 ms (FindLiveObjects: 0.179709 ms CreateObjectMapping: 0.070041 ms MarkObjects: 2.494750 ms  DeleteObjects: 0.042000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001805 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2023-01-08 20:09:50.164 Unity[24402:1386679] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f8a6142d630 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-Exception thrown while invoking [DidReloadScripts] method 'Facebook.WitAi.Windows.WitConfigurationEditor:OnScriptsReloaded ()' : NullReferenceException: Object reference not set to an instance of an object
-  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.ReloadConfigurationData () [0x00029] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:81 
-  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.get_WitConfigs () [0x00007] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:36 
-  at Facebook.WitAi.Windows.WitConfigurationEditor.OnScriptsReloaded () [0x00000] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationEditor.cs:443 
-
-(Filename: Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs Line: 81)
-
-- Completed reload, in  2.538 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2539ms)
-		BeginReloadAssembly (215ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (35ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (64ms)
-		EndReloadAssembly (2233ms)
-			LoadAssemblies (209ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (358ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (1243ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (321ms)
-				ProcessInitializeOnLoadAttributes (868ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (34ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2271 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 494.1 MB.
-System memory in use after: 494.3 MB.
-
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2854.
-Total: 2.753792 ms (FindLiveObjects: 0.157208 ms CreateObjectMapping: 0.058667 ms MarkObjects: 2.492667 ms  DeleteObjects: 0.043708 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002973 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2023-01-08 20:10:06.645 Unity[24402:1386679] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f8a611a8240 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-Exception thrown while invoking [DidReloadScripts] method 'Facebook.WitAi.Windows.WitConfigurationEditor:OnScriptsReloaded ()' : NullReferenceException: Object reference not set to an instance of an object
-  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.ReloadConfigurationData () [0x00029] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:81 
-  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.get_WitConfigs () [0x00007] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:36 
-  at Facebook.WitAi.Windows.WitConfigurationEditor.OnScriptsReloaded () [0x00000] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationEditor.cs:443 
-
-(Filename: Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs Line: 81)
-
-- Completed reload, in  2.382 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2383ms)
-		BeginReloadAssembly (213ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (34ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (62ms)
-		EndReloadAssembly (2081ms)
-			LoadAssemblies (203ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (333ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (1148ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (276ms)
-				ProcessInitializeOnLoadAttributes (819ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (31ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2271 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 495.6 MB.
-System memory in use after: 495.8 MB.
-
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2857.
-Total: 4.066000 ms (FindLiveObjects: 0.164500 ms CreateObjectMapping: 0.058375 ms MarkObjects: 3.792959 ms  DeleteObjects: 0.049250 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005043 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2023-01-08 20:11:33.040 Unity[24402:1386679] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f8a6103e8e0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-Exception thrown while invoking [DidReloadScripts] method 'Facebook.WitAi.Windows.WitConfigurationEditor:OnScriptsReloaded ()' : NullReferenceException: Object reference not set to an instance of an object
-  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.ReloadConfigurationData () [0x00029] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:81 
-  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.get_WitConfigs () [0x00007] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:36 
-  at Facebook.WitAi.Windows.WitConfigurationEditor.OnScriptsReloaded () [0x00000] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationEditor.cs:443 
-
-(Filename: Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs Line: 81)
-
-- Completed reload, in  2.464 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2465ms)
-		BeginReloadAssembly (297ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (34ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (73ms)
-		EndReloadAssembly (2077ms)
-			LoadAssemblies (244ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (325ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (1147ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (265ms)
-				ProcessInitializeOnLoadAttributes (828ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (33ms)
 Platform modules already initialized, skipping
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.59 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2271 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 497.1 MB.
-System memory in use after: 497.3 MB.
+System memory in use before: 160.1 MB.
+System memory in use after: 160.3 MB.
 
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2860.
-Total: 2.614208 ms (FindLiveObjects: 0.157875 ms CreateObjectMapping: 0.057083 ms MarkObjects: 2.361500 ms  DeleteObjects: 0.036625 ms)
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2773.
+Total: 2.685000 ms (FindLiveObjects: 0.129709 ms CreateObjectMapping: 0.050834 ms MarkObjects: 2.444000 ms  DeleteObjects: 0.054917 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1323,338 +236,14 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001573 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2023-01-08 20:23:02.800 Unity[24402:1386679] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f8a610f4da0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-Exception thrown while invoking [DidReloadScripts] method 'Facebook.WitAi.Windows.WitConfigurationEditor:OnScriptsReloaded ()' : NullReferenceException: Object reference not set to an instance of an object
-  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.ReloadConfigurationData () [0x00029] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:81 
-  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.get_WitConfigs () [0x00007] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:36 
-  at Facebook.WitAi.Windows.WitConfigurationEditor.OnScriptsReloaded () [0x00000] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationEditor.cs:443 
-
-(Filename: Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs Line: 81)
-
-- Completed reload, in  2.466 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2468ms)
-		BeginReloadAssembly (256ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (38ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (89ms)
-		EndReloadAssembly (2121ms)
-			LoadAssemblies (214ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (344ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (1170ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (280ms)
-				ProcessInitializeOnLoadAttributes (834ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (4ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (34ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2271 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 498.5 MB.
-System memory in use after: 498.7 MB.
-
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2863.
-Total: 2.774875 ms (FindLiveObjects: 0.175917 ms CreateObjectMapping: 0.061500 ms MarkObjects: 2.473500 ms  DeleteObjects: 0.062875 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 4104.601962 seconds.
-  path: Assets/Assets/first/skip.PNG
-  artifactKey: Guid(d2d889f7c56784371ba14330d7026d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/first/skip.PNG using Guid(d2d889f7c56784371ba14330d7026d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19c4979540ab73ae31aca2712d03e8c') in 0.623837 seconds 
-  Import took 0.631574 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 43.419635 seconds.
-  path: Assets/Assets/third/click.mp3
-  artifactKey: Guid(50a3bbec1d55a9c4799b298501528a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/third/click.mp3 using Guid(50a3bbec1d55a9c4799b298501528a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2282a6024573c8d9bcac7eef107d3ad3') in 0.766828 seconds 
-  Import took 0.773236 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/Assets/third/terror_attack.mp3
-  artifactKey: Guid(e1ae748feb39d754d909690c1bd65900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/third/terror_attack.mp3 using Guid(e1ae748feb39d754d909690c1bd65900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05456f934e795312788662c1fd89a276') in 0.011553 seconds 
-  Import took 0.015667 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.462643 seconds.
-  path: Assets/Scripts/third/niddleClick2.cs
-  artifactKey: Guid(35c23ca54d4d4d24ab805c99e325c20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/third/niddleClick2.cs using Guid(35c23ca54d4d4d24ab805c99e325c20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1275666af9655687806b780b01ccfc9e') in 0.002389 seconds 
-  Import took 0.005809 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 235.651744 seconds.
-  path: Assets/Assets/first/blood2.png
-  artifactKey: Guid(b2b0a7535762841b89835b89bf231358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/first/blood2.png using Guid(b2b0a7535762841b89835b89bf231358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dfa0576a4798405ef2a68e90d393bf8') in 0.103480 seconds 
-  Import took 0.109909 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000366 seconds.
-  path: Assets/Assets/first/blood.jpg
-  artifactKey: Guid(e12d477feb03f4350be855f64e84960e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/first/blood.jpg using Guid(e12d477feb03f4350be855f64e84960e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece0452b9f698112abf4c4020abfc67e') in 0.458773 seconds 
-  Import took 0.465087 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/Assets/first/blood1.png
-  artifactKey: Guid(7f07a41545423441f9072d457b3c0cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/first/blood1.png using Guid(7f07a41545423441f9072d457b3c0cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a974149d21332c7b59c296412b4ae75b') in 0.018486 seconds 
-  Import took 0.022070 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005050 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2023-01-08 20:45:18.642 Unity[24402:1386679] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f8a615dd2c0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-Exception thrown while invoking [DidReloadScripts] method 'Facebook.WitAi.Windows.WitConfigurationEditor:OnScriptsReloaded ()' : NullReferenceException: Object reference not set to an instance of an object
-  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.ReloadConfigurationData () [0x00029] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:81 
-  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.get_WitConfigs () [0x00007] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:36 
-  at Facebook.WitAi.Windows.WitConfigurationEditor.OnScriptsReloaded () [0x00000] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationEditor.cs:443 
-
-(Filename: Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs Line: 81)
-
-- Completed reload, in  2.542 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2545ms)
-		BeginReloadAssembly (309ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (42ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (113ms)
-		EndReloadAssembly (2142ms)
-			LoadAssemblies (249ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (333ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (1200ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (274ms)
-				ProcessInitializeOnLoadAttributes (872ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (33ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2271 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 0.80 GB.
-System memory in use after: 0.80 GB.
-
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2874.
-Total: 2.777208 ms (FindLiveObjects: 0.168375 ms CreateObjectMapping: 0.060250 ms MarkObjects: 2.496625 ms  DeleteObjects: 0.050959 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001530 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2023-01-08 20:48:14.249 Unity[24402:1386679] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f8a6049d1d0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-Exception thrown while invoking [DidReloadScripts] method 'Facebook.WitAi.Windows.WitConfigurationEditor:OnScriptsReloaded ()' : NullReferenceException: Object reference not set to an instance of an object
-  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.ReloadConfigurationData () [0x00029] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:81 
-  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.get_WitConfigs () [0x00007] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:36 
-  at Facebook.WitAi.Windows.WitConfigurationEditor.OnScriptsReloaded () [0x00000] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationEditor.cs:443 
-
-(Filename: Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs Line: 81)
-
-- Completed reload, in  2.396 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2397ms)
-		BeginReloadAssembly (208ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (34ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (60ms)
-		EndReloadAssembly (2101ms)
-			LoadAssemblies (196ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (326ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (1157ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (273ms)
-				ProcessInitializeOnLoadAttributes (833ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (38ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2271 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 0.80 GB.
-System memory in use after: 0.80 GB.
-
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2877.
-Total: 2.680084 ms (FindLiveObjects: 0.144417 ms CreateObjectMapping: 0.055291 ms MarkObjects: 2.438542 ms  DeleteObjects: 0.040583 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001576 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2023-01-08 20:51:23.437 Unity[24402:1386679] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f8a61557450 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-Exception thrown while invoking [DidReloadScripts] method 'Facebook.WitAi.Windows.WitConfigurationEditor:OnScriptsReloaded ()' : NullReferenceException: Object reference not set to an instance of an object
-  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.ReloadConfigurationData () [0x00029] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:81 
-  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.get_WitConfigs () [0x00007] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:36 
-  at Facebook.WitAi.Windows.WitConfigurationEditor.OnScriptsReloaded () [0x00000] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationEditor.cs:443 
-
-(Filename: Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs Line: 81)
-
-- Completed reload, in  2.378 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2379ms)
-		BeginReloadAssembly (203ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (33ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (60ms)
-		EndReloadAssembly (2089ms)
-			LoadAssemblies (193ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (327ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (1173ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (277ms)
-				ProcessInitializeOnLoadAttributes (844ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (35ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2271 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 0.80 GB.
-System memory in use after: 0.80 GB.
-
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2880.
-Total: 2.667750 ms (FindLiveObjects: 0.152208 ms CreateObjectMapping: 0.052875 ms MarkObjects: 2.426000 ms  DeleteObjects: 0.035333 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003292 seconds.
+Registered in 0.002727 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.59 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-2023-01-08 20:52:22.976 Unity[24402:1386679] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f8a97f66cc0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2023-01-08 21:07:58.517 Unity[26212:1489211] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f87692ed3f0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 Mono: successfully reloaded assembly
 Exception thrown while invoking [DidReloadScripts] method 'Facebook.WitAi.Windows.WitConfigurationEditor:OnScriptsReloaded ()' : NullReferenceException: Object reference not set to an instance of an object
   at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.ReloadConfigurationData () [0x00029] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:81 
@@ -1663,126 +252,43 @@ Exception thrown while invoking [DidReloadScripts] method 'Facebook.WitAi.Window
 
 (Filename: Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs Line: 81)
 
-- Completed reload, in  2.353 seconds
+- Completed reload, in  2.308 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2354ms)
-		BeginReloadAssembly (225ms)
+	ReloadAssembly (2309ms)
+		BeginReloadAssembly (211ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (33ms)
+			DisableScriptedObjects (31ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (62ms)
-		EndReloadAssembly (2043ms)
-			LoadAssemblies (229ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (2011ms)
+			LoadAssemblies (216ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (318ms)
+			SetupTypeCache (315ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (1140ms)
+			SetupLoadedEditorAssemblies (1125ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (18ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (268ms)
+				BeforeProcessingInitializeOnLoad (257ms)
 				ProcessInitializeOnLoadAttributes (820ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (34ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2271 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 0.80 GB.
-System memory in use after: 0.80 GB.
-
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2883.
-Total: 2.653042 ms (FindLiveObjects: 0.154000 ms CreateObjectMapping: 0.057375 ms MarkObjects: 2.400833 ms  DeleteObjects: 0.039792 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1516.842723 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f278a1af51fb8cb0dd68a68acbed962b') in 0.023820 seconds 
-  Import took 0.027458 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 127.700366 seconds.
-  path: Assets/Scenes/thirdScene.unity
-  artifactKey: Guid(7ee6de631290e48acb3f54fc53194ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/thirdScene.unity using Guid(7ee6de631290e48acb3f54fc53194ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b31b19b569620dc6dcae8b167fe30e3c') in 0.001826 seconds 
-  Import took 0.006013 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003795 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.09 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2023-01-08 20:58:33.887 Unity[24402:1386679] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f8a601b0320 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-Exception thrown while invoking [DidReloadScripts] method 'Facebook.WitAi.Windows.WitConfigurationEditor:OnScriptsReloaded ()' : NullReferenceException: Object reference not set to an instance of an object
-  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.ReloadConfigurationData () [0x00029] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:81 
-  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.get_WitConfigs () [0x00007] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:36 
-  at Facebook.WitAi.Windows.WitConfigurationEditor.OnScriptsReloaded () [0x00000] in /Users/kevinlin/Documents/Game Programing II/ReBirth/rebirth/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationEditor.cs:443 
-
-(Filename: Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs Line: 81)
-
-- Completed reload, in  2.451 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2452ms)
-		BeginReloadAssembly (225ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (36ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (60ms)
-		EndReloadAssembly (2140ms)
-			LoadAssemblies (231ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (319ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (1174ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (287ms)
-				ProcessInitializeOnLoadAttributes (833ms)
 				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (30ms)
+			AwakeInstancesAfterBackupRestoration (32ms)
 Platform modules already initialized, skipping
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.59 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2271 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 0.80 GB.
-System memory in use after: 0.80 GB.
+System memory in use before: 161.6 MB.
+System memory in use after: 161.9 MB.
 
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2886.
-Total: 2.465417 ms (FindLiveObjects: 0.135416 ms CreateObjectMapping: 0.050292 ms MarkObjects: 2.240417 ms  DeleteObjects: 0.038333 ms)
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2776.
+Total: 2.605083 ms (FindLiveObjects: 0.133042 ms CreateObjectMapping: 0.051125 ms MarkObjects: 2.368208 ms  DeleteObjects: 0.051459 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 

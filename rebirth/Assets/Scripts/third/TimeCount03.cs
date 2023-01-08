@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class TimeCount03 : MonoBehaviour
 {
     public GameObject textDisplay;
-    public int secondLeft = 30;
+    public int secondLeft = 180;
     public bool timeGo = false;
 
 
