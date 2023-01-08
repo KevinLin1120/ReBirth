@@ -50,8 +50,8 @@ public class niddleClick2 : MonoBehaviour
                 niddle2.SetActive(false);
                 niddleCanvas2.SetActive(false);
                 //blood anim
-                // GM.isRight = true;
                 blood2.SetActive(true);
+                GM.isRight = true;
 
             }
             // Debug.Log(i);

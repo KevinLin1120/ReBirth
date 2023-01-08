@@ -6,6 +6,8 @@ using UnityEngine.UI;
 
 public class KeypadController : MonoBehaviour
 {
+    public Gamemanager gm;
+
     public List<int> correctPassword = new List<int>();
     private List<int> inputPasswordList = new List<int>();
     [SerializeField] private Text codeDisplay;
@@ -22,8 +24,7 @@ public class KeypadController : MonoBehaviour
     private bool hasUsedCorrectCode = false;
 
     public bool HasUsedCorrectCode { get { return hasUsedCorrectCode; } }
-    //
-    public GameObject blood;
+    
 
     public void UserNumberEntry(int selectedNum)
     {
@@ -69,8 +70,7 @@ public class KeypadController : MonoBehaviour
             hasUsedCorrectCode = true;
             codeDisplay.text = SuccessText;
         }
-        //要丟到ＧＭ
-        blood.SetActive(true);
+        gm.isWin = true;
     }
     private void InCorrectPassword()
     {
