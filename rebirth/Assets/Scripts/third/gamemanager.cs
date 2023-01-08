@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class gamemanager : MonoBehaviour
 {
-    public bool isRight, isWrong;
+    public bool isRight;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +15,8 @@ public class gamemanager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(isRight){        
+            Debug.Log("pass");
+        }
     }
 }
