@@ -2552,7 +2552,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 2131553575}
-  secondLeft: 30
+  secondLeft: 90
   timeGo: 0
 --- !u!1 &550440705
 GameObject:

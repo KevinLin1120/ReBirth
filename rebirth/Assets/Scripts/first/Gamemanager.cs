@@ -47,6 +47,7 @@ public class Gamemanager : MonoBehaviour
         {
             StartCoroutine(death());
             isDeath = !isDeath;
+        }
 
             //IEnumerator death(){
             //    // Start the flash
@@ -58,7 +59,6 @@ public class Gamemanager : MonoBehaviour
             //    }
             //    // Stop the flash
             //    screenFlash.SetActive(false);
-
             //    // Start blinking
             //    blink.blink_eye(true);
             //    // First time
@@ -87,7 +87,7 @@ public class Gamemanager : MonoBehaviour
             //blink.blink_eye(6);
             // Reborn
             //blink.openEye();
-        }
+        
         if (isWin)
         {
             StartCoroutine(win());
@@ -130,7 +130,7 @@ public class Gamemanager : MonoBehaviour
 
         // Restart the countdown
         yield return new WaitForSeconds(1f);
-        tick.secondLeft = 30;
+        tick.secondLeft = 90;
 
         //yield return new WaitForSeconds(5f);
         //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
