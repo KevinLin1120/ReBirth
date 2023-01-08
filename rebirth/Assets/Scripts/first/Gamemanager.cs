@@ -130,7 +130,7 @@ public class Gamemanager : MonoBehaviour
 
         // Restart the countdown
         yield return new WaitForSeconds(1f);
-        tick.secondLeft = 30;
+        tick.secondLeft = 90;
 
         //yield return new WaitForSeconds(5f);
         //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
