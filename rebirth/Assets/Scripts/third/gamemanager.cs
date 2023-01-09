@@ -6,6 +6,9 @@ using UnityEngine.SceneManagement;
 public class gamemanager : MonoBehaviour
 {
     public bool isDeath = false;
+    public GameObject blackPanel, video, skipBtn, videoCanvas;
+    public UnityEngine.Video.VideoPlayer vid;
+    public bool isPlayEnd = false;
     public GameObject screenFlash;
     public blink blink;
     public passOut passOut;
@@ -20,7 +23,7 @@ public class gamemanager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Cursor.visible=true;
+        Cursor.visible = true;
         Cursor.lockState = 0;
 
         Cursor.visible = true;
@@ -30,6 +33,8 @@ public class gamemanager : MonoBehaviour
         //tick.secondLeft = 30;
         // Stop the countdown
         tick.enabled = true;
+
+        vid.loopPointReached += playOver;
 
         //vid.loopPointReached += playOver;
         // Delay 3s and indicate the btn
@@ -99,6 +104,26 @@ public class gamemanager : MonoBehaviour
         SceneManager.LoadScene(1);
     }
 
+    IEnumerator playVideo()
+    {
+        videoCanvas.SetActive(true);
+
+        blackPanel.SetActive(true);
+        // Delay 3s
+        yield return new WaitForSeconds(1.5f);
+        blackPanel.SetActive(false);
+        video.SetActive(true);
+        yield return new WaitForSeconds(3);
+        skipBtn.SetActive(true);
+    }
+    void playOver(UnityEngine.Video.VideoPlayer vp)
+    {
+        video.SetActive(false);
+        skipBtn.SetActive(false);
+        videoCanvas.SetActive(false);
+        // Start to countdown
+        tick.enabled = true;
+    }
     IEnumerator win()
     {
         // Stop the countdown
@@ -106,8 +131,11 @@ public class gamemanager : MonoBehaviour
 
         blood.SetActive(true);
         // Wait for 2 seconds
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(12f);
         // Change to third scene
         //SceneManager.LoadScene(1);
+
+        // Delay 3s and indicate the btn
+        StartCoroutine(playVideo());
     }
 }
